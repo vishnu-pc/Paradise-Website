@@ -1,12 +1,13 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import logo from '../assets/images/paradise-black.jpeg'
+import logo from '../assets/images/paradise-black.jpeg';
+import './Header.css';
 
 function Header() {
     return (
         <div>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar className="nav-header" variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
