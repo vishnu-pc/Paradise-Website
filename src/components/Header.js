@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import logo from '../assets/images/paradise-black.jpeg';
+import logo from '../assets/images/paradise-transparent.png';
 import './Header.css';
 
 function Header() {
