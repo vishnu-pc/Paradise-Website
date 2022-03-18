@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/public/background-video-2.mp4
 /.pnp
 .pnp.js
 
