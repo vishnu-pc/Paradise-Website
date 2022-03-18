@@ -1,20 +1,26 @@
 .background-video {
-    height: auto;
-    max-width: 100%;
     padding: none;
-    position: top;
+    margin: none;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
 }
 
-.video-container {
-    position: relative;
-    text-align: center;
-    color: black;
+.background-video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* display: block; */
 }
 
-.overlay-text {
-    color: white;
+.text-in-video {
     position: absolute;
-    top: 40%;
+    color: white;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+}
+
+.background-video h1 {
+    font-size: 84px;
 }
