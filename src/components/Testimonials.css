@@ -1,0 +1,85 @@
+/* Create three equal columns that floats next to each other */
+.testimonial {
+  padding: 30px;
+  background-image: url("../assets/images/gold-tile2.jpg");
+  /* background-color: black; */
+  color: white;
+}
+
+.testimonial h1 {
+  font-size: 100px;
+  font-weight: bold;
+  padding: 5%;
+  text-align: right;
+  width: 100%;
+}
+
+.testimonial:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.testimonial img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial .fa {
+  color: gold;
+}
+
+.test {
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  height: auto;
+  background-color: black;
+  border-radius: 5%;
+  color: white;
+}
+
+.test p {
+  color: rgb(177, 177, 177);
+}
+
+.test .test1,
+.test2,
+.test3 {
+  padding: 10%;
+}
+
+.test:hover {
+  transform: scale(1.1);
+  background-color: rgb(24, 24, 24);
+  transition: 0.5s;
+}
+
+.hover-text1,
+.hover-text2,
+.hover-text3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: 80%;
+  background-color: rgb(56, 56, 56);
+  opacity: 0.5;
+  border-radius: 20px;
+  display: none;
+  color: white;
+  font-size: 38px;
+}
+
+/* .test1:hover + .hover-text1 {
+  display: block;
+}
+
+.test2:hover + .hover-text2 {
+  display: block;
+}
+
+.test3:hover + .hover-text3 {
+  display: block;
+} */

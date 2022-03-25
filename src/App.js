@@ -4,14 +4,17 @@ import Header from './components/Header'
 import VideoBackground from './components/VideoBackground'
 import About from './components/About'
 import Test from './components/Test'
+import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
 
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <VideoBackground />
-      <About />
-      <Test /> */}
+      {/* <About /> */}
+      <Testimonials />
+      <Contact />
     </div>
   );
 }
