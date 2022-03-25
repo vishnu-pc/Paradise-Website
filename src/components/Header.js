@@ -30,7 +30,7 @@ function Header() {
           <Nav className="form-inline my-2 my-lg-0">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="me-auto" style={{ color: "white" }}>
                 <Nav.Link id="nav-hover" href="#home">
                   Home
                 </Nav.Link>

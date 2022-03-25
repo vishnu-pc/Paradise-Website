@@ -3,7 +3,7 @@ import "./About.css";
 import About1 from "../assets/images/About1.jpeg";
 import { Row, Col } from "react-bootstrap";
 import { render } from "@testing-library/react";
-import sample from "../assets/videos/about-us-video.mov";
+import sample from "../assets/images/those-that-inspire_ Photo.gif";
 
 function About() {
   const handleKeyDown = (event) => {
@@ -15,7 +15,7 @@ function About() {
 
   useEffect(() => {
     let scrolldiv = document.getElementById("onscroll");
-    window.addEventListener("scroll", handleKeyDown);
+    scrolldiv.addEventListener("mouseover", handleKeyDown);
     return () => {
       window.removeEventListener("scroll", handleKeyDown);
     };
@@ -25,42 +25,44 @@ function About() {
 
   const [visible, setvisible] = useState(true);
   return (
-    <div>
-      <Row id="onscroll">
-        <Col span={14} style={{ background: "black", height: "auto" }}>
+    <div className="about-background">
+      <Row>
+        <Col span={14} style={{ height: "auto" }}>
           <h1
             className="about-text"
             style={{
               position: "sticky",
-              top: "50%",
+              top: "70%",
+              left: "70%",
               color: h1color,
 
               padding: "30px",
             }}
           >
             About Us
-            {/* { <img src={sample}></img>} */}
           </h1>
 
           {
-            // <video
-            //   style={{ position: "sticky", top: "20%" }}
-            //   height="600"
-            //   width="600"
-            //   autoPlay
-            //   loop
-            //   hidden={visible}
-            //   muted
-            // >
-            //   <source src={sample} type="video/mp4" />
-            // </video>
+            <div
+              style={{ position: "sticky", top: "20%" }}
+              height="600"
+              width="600"
+              autoPlay
+              loop
+              hidden={visible}
+              muted
+            >
+              {<img src={sample} alt="video"></img>}
+            </div>
           }
         </Col>
-        <Col style={{ background: "black", height: "auto" }} span={14}>
+        <Col style={{ height: "auto" }} span={14}>
           <div style={{ color: "white", padding: "250px 250px 20px 250px" }}>
             <div>
               <div style={{ paddingBottom: "250px", paddingTop: "200px" }}>
-                <h1 className="about-title">Who we are</h1>
+                <h1 id="onscroll" className="about-title">
+                  Who we are
+                </h1>
 
                 <p>
                   Paradise Stile studio is one of the main voices in the floor
