@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useRef, useState } from "react";
 import "./About.css";
 import About1 from "../assets/images/About1.jpeg";
 import { Row, Col } from "react-bootstrap";
@@ -6,63 +6,82 @@ import { render } from "@testing-library/react";
 import sample from "../assets/images/those-that-inspire_ Photo.gif";
 
 function About() {
+  const containerRef = useRef(null);
   const handleKeyDown = (event) => {
-    console.log(event);
-    setvisible(false);
-    // seth1back("goldenrod");
-    // seth1color("black");
+    console.log((event.pageY - 940) * 0.00125);
+    let x = (event.pageY - 940) * 0.00125;
+    setvisible(x);
+    if (x < 1) {
+      setsize(x * 100);
+    }
   };
+  const callbackFunction = (entries) => {
+    const [entry] = entries;
+    const text = entry.target;
 
+    if (entry.isIntersecting) {
+      text.classList.add("about-text-transition");
+      return;
+    }
+    //text.classList.remove("about-text-transition");
+  };
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 1.0,
+  };
   useEffect(() => {
     let scrolldiv = document.getElementById("onscroll");
-    scrolldiv.addEventListener("mouseover", handleKeyDown);
-    return () => {
-      window.removeEventListener("scroll", handleKeyDown);
-    };
+
+    scrolldiv.addEventListener("wheel", handleKeyDown);
   }, []);
-  const [h1background, seth1back] = useState("black");
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(callbackFunction, options);
+    if (containerRef.current) observer.observe(containerRef.current);
+    return () => {
+      if (containerRef.current) observer.unobserve(containerRef.current);
+    };
+  }, [containerRef, options]);
+  const [size, setsize] = useState(0);
   const [h1color, seth1color] = useState("white");
 
-  const [visible, setvisible] = useState(true);
+  const [visible, setvisible] = useState(0);
   return (
-    <div className="about-background">
-      <Row>
-        <Col span={14} style={{ height: "auto" }}>
-          <h1
-            className="about-text"
-            style={{
-              position: "sticky",
-              top: "70%",
-              left: "70%",
-              color: h1color,
-
-              padding: "30px",
-            }}
-          >
+    <div className="about-background" id="onscroll">
+      <Row
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+        }}
+      >
+        <Col span={12} style={{ height: "auto" }}>
+          <h1 ref={containerRef} className="about-text ">
             About Us
           </h1>
 
           {
             <div
-              style={{ position: "sticky", top: "20%" }}
+              style={{
+                position: "sticky",
+                top: "20%",
+                opacity: visible,
+              }}
               height="600"
               width="600"
               autoPlay
               loop
-              hidden={visible}
               muted
             >
-              {<img src={sample} alt="video"></img>}
+              {<img width={size + "%"} src={sample} atype="video/mp4" />}
             </div>
           }
         </Col>
-        <Col style={{ height: "auto" }} span={14}>
+        <Col style={{ height: "auto" }} span={12}>
           <div style={{ color: "white", padding: "250px 250px 20px 250px" }}>
             <div>
               <div style={{ paddingBottom: "250px", paddingTop: "200px" }}>
-                <h1 id="onscroll" className="about-title">
-                  Who we are
-                </h1>
+                <h1 className="about-title">Who we are</h1>
 
                 <p>
                   Paradise Stile studio is one of the main voices in the floor
