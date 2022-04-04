@@ -10,11 +10,11 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <VideoBackground />
       <About />
       <Testimonials />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
