@@ -17,12 +17,13 @@
   position: sticky;
   top: 70%;
   left: 70%;
-  color: white;
+  color: black;
   padding: 30px;
   overflow: hidden;
 }
 .about-text-transition {
   animation: text 2s linear;
+  color: white;
 }
 
 @keyframes text {
@@ -40,8 +41,13 @@
   color: goldenrod;
   border-radius: 10px;
 }
+.about-title-transition {
+  animation: text 2s linear;
+  color: goldenrod;
+}
+
 .about-background {
-  background: linear-gradient(-45deg, #292929, #2b2b2b, #000000, #000000);
+  background: black;
   background-size: 200% 200%;
 }
 
@@ -69,8 +75,17 @@
 }
 p {
   text-align: justify;
-  size: 10px;
+  font-size: 25px;
 }
+
+.parallaxBackground {
+  background-image: url("../assets/images/parallaxBackground.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 /* 
 .about-img2{
     filter: invert(100%);

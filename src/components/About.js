@@ -3,7 +3,8 @@ import "./About.css";
 import About1 from "../assets/images/About1.jpeg";
 import { Row, Col } from "react-bootstrap";
 import { render } from "@testing-library/react";
-import sample from "../assets/images/those-that-inspire_ Photo.gif";
+import sample from "../assets/images/jd.jpg";
+import sample2 from "../assets/images/rolex.jpg";
 
 function About() {
   const containerRef = useRef(null);
@@ -20,7 +21,7 @@ function About() {
     const text = entry.target;
 
     if (entry.isIntersecting) {
-      text.classList.add("about-text-transition");
+      text.classList.add("about-title-transition");
       return;
     }
     //text.classList.remove("about-text-transition");
@@ -48,7 +49,7 @@ function About() {
 
   const [visible, setvisible] = useState(0);
   return (
-    <div className="about-background" id="onscroll">
+    <div className="about-background">
       <Row
         style={{
           paddingLeft: "30px",
@@ -56,11 +57,34 @@ function About() {
         }}
       >
         <Col span={12} style={{ height: "auto" }}>
-          <h1 ref={containerRef} className="about-text ">
-            About Us
-          </h1>
+          <div style={{ color: "white", padding: "50px 100px 50px 150px" }}>
+            <div>
+              <div style={{ paddingBottom: "250px", paddingTop: "50px" }}>
+                <h1 className="about-title" id="onscroll">
+                  Who we are
+                </h1>
 
-          {
+                <p>
+                  Paradise Stile studio is one of the main voices in the floor
+                  and wall tiles distribution market. Situated in Indiranagar,
+                  Bangalore, we are a sanctuary for designer tiles and bring a
+                  new and more nuanced voice to the sector.
+                </p>
+                <p>
+                  Our vision is to be an all inclusive hub for aesthetic
+                  building materials, providing lavish items that are customized
+                  to the aesthetic of your architectural wonder. Our mission is
+                  to be the go-to brand when one considers luxurious interiors
+                  and exteriors.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <h1 ref={containerRef} className="about-text ">
+            About Us
+          </h1> */}
+
+          {/* {
             <div
               style={{
                 position: "sticky",
@@ -75,12 +99,62 @@ function About() {
             >
               {<img width={size + "%"} src={sample} atype="video/mp4" />}
             </div>
-          }
+          } */}
         </Col>
         <Col style={{ height: "auto" }} span={12}>
-          <div style={{ color: "white", padding: "250px 250px 20px 250px" }}>
+          <img src={sample} alt="jd" />
+        </Col>
+      </Row>
+      <Row
+        className="parallaxBackground"
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+        }}
+      >
+        <Col span={12} style={{ height: "auto" }}></Col>
+        <Col style={{ height: "auto" }} span={12}>
+          <div
+            style={{
+              color: "black",
+              margin: "50px 200px 50px 200px",
+              padding: "50px 50px 50px 50px",
+              background: "white",
+              borderRadius: "30px",
+            }}
+          >
             <div>
-              <div style={{ paddingBottom: "250px", paddingTop: "200px" }}>
+              <div style={{ paddingBottom: "50px" }}>
+                <h1 className="about-title">Who we work with</h1>
+                <br />
+                <br />
+
+                <p>
+                  Our client base incorporates architects, interior designers,
+                  students of design, architecture and more. We cater to anybody
+                  with an eye for design and beauty, our customizable range of
+                  products being a testament to that.
+                </p>
+                <p>
+                  They say luxury is in freedom and we provide our clients the
+                  freedom to pick the right design for their homes and
+                  architecture.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Col>
+      </Row>
+      <Row
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+        }}
+      >
+        <Col span={12} style={{ height: "auto" }}>
+          <div style={{ color: "white", padding: "50px 100px 50px 150px" }}>
+            <div>
+              <div style={{ paddingBottom: "250px", paddingTop: "50px" }}>
                 <h1 className="about-title">Who we are</h1>
 
                 <p>
@@ -89,11 +163,6 @@ function About() {
                   Bangalore, we are a sanctuary for designer tiles and bring a
                   new and more nuanced voice to the sector.
                 </p>
-              </div>
-
-              <div style={{ paddingBottom: "250px" }}>
-                <h1 className="about-title">Our Vision</h1>
-
                 <p>
                   Our vision is to be an all inclusive hub for aesthetic
                   building materials, providing lavish items that are customized
@@ -102,32 +171,11 @@ function About() {
                   and exteriors.
                 </p>
               </div>
-
-              <div style={{ paddingBottom: "250px" }}>
-                <h1 className="about-title">Who we work with</h1>
-
-                <p>
-                  Our client base incorporates architects, interior designers,
-                  students of design, architecture and more. We cater to anybody
-                  with an eye for design and beauty, our customizable range of
-                  products being a testament to that.
-                </p>
-              </div>
-
-              <div style={{ paddingBottom: "10px" }}>
-                <h1 className="about-title">Core Value</h1>
-
-                <p>
-                  They say luxury is in freedom and we provide our clients the
-                  freedom to pick the right design for their homes and
-                  architecture. Paradise offers clients visually appealing
-                  materials that compliment their vision. We don't direct what
-                  beauty is, it is entirely subjective. We are and will continue
-                  to be a sanctuary for designer and luxurious products.
-                </p>
-              </div>
             </div>
           </div>
+        </Col>
+        <Col style={{ height: "auto", paddingTop: "50px" }} span={12}>
+          <img src={sample} alt="jd" />
         </Col>
       </Row>
     </div>
