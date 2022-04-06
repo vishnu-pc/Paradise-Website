@@ -1,0 +1,36 @@
+.testimonial2{
+    /* padding: 10%; */
+    background-color: black;
+}
+
+.testimonial2 h1{
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.test-element{
+    margin: auto;
+    width: 100%;
+}
+
+.test-element h3{
+    text-align: center;
+}
+
+.test-element p{
+    text-align: center;
+}
+
+.carousel img{
+    max-width: 100%;
+    margin: auto;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.8);
+}
