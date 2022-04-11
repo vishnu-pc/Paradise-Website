@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import VideoBackground from './components/VideoBackground'
-import About from './components/About'
-import Test from './components/Test'
-// import Testimonials from './components/Testimonials'
+// import About from './components/About'
+import About2 from './components/About2'
+import Testimonials from './components/Testimonials'
 import Testimonials2 from './components/Testimonials2'
 import Contact from './components/Contact'
 
@@ -13,7 +13,8 @@ function App() {
     <div className="App">
       <Header /> 
       <VideoBackground />
-      <About />
+      {/* <About /> */}
+      <About2 />
       {/* <Testimonials /> */}
       <Testimonials2 />
       <Contact />

@@ -1,5 +1,5 @@
 .nav-header {
-  background-color: black;
+  background: none;
 }
 
 .nav-header #nav-hover-name:hover {
@@ -7,9 +7,9 @@
   transition: 1s;
 }
 .abc {
-  position: fixed;
+  position: absolute;
   z-index: 10;
-  top: -1px;
+  /* top: -1px; */
   width: 100%;
 }
 .nav-header #nav-hover::after {

@@ -1,18 +1,52 @@
 .testimonial2{
     /* padding: 10%; */
-    background-color: black;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    position: relative;
 }
 
-.testimonial2 h1{
-    text-align: right;
-    padding-right: 20%;
-    padding-top: 3%;
+.testimonial-section-title{
+    color: rgba(215,189,172,255);
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
     padding-bottom: 3%;
+    padding-right: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testimonial-section-title:hover{
+    color: rgba(182,166,142,255);
+    transition: 1s;
+}
+
+.testimonial-section-title::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background: rgba(215,189,172,255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.testimonial-section-title:hover::after {
+    width: 70%;
 }
 
 .test-element{
     margin: auto;
     width: 100%;
+    margin-bottom: 5%;
+    box-shadow:20px 20px 10px 0px rgba(215,189,172,255);
+}
+
+.test-element:hover {
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    transition: 0.5s;
 }
 
 .test-element h3{
@@ -21,16 +55,17 @@
 
 .test-element p{
     text-align: center;
+    font-size: large;
 }
 
 .carousel img{
-    max-width: 100%;
+    width: 100%;
     margin: auto;
-    max-height: 70vh;
+    height: 70vh;
     object-fit: cover;
 }
 
 .carousel-caption {
     padding: 1%;
-    background: rgba(0, 0, 0, 0.8);
+    /* background: rgba(182,166,142,0.5); */
 }

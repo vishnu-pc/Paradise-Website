@@ -24,12 +24,12 @@ function Contact() {
                         <Col xs={12} md={8} className="mt-5 mb-2">
                             <div className="google-map-code">
                                 {/* To make maps B/W use in filter: grayscale(100%) invert(100%) contrast(100%) */}
-                                <iframe style={{border:'0', filter: 'grayscale(100%) invert(100%) contrast(100%)' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0233955170493!2d77.63467041378985!3d12.970354718417413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a74acc0e49%3A0xb0f0b496d272aee0!2sParadise%20Stile%20Studio!5e0!3m2!1sen!2sin!4v1649324575318!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+                                <iframe style={{border:'0', filter: '' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0233955170493!2d77.63467041378985!3d12.970354718417413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a74acc0e49%3A0xb0f0b496d272aee0!2sParadise%20Stile%20Studio!5e0!3m2!1sen!2sin!4v1649324575318!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                         </Col>
                         <Col xs={12} md={4} className="mt-5 mb-2">
                             <div className='contact-form'>
-                                <h2 className="about-title">Get in touch with us</h2>
+                                <h3 className="about-title" style={{'font-size':'xx-large'}}>Get in touch with us</h3>
                                 <br></br>
                                 <Form>
                                     <Row className="mb-3">
@@ -52,7 +52,7 @@ function Contact() {
                                         <Form.Label>Message</Form.Label>
                                         <Form.Control as="textarea" style={{height:''}} rows={5} placeholder="Enter a message here" />
                                     </Form.Group>
-                                    <Row className="mb-3">
+                                    {/* <Row className="mb-3">
                                         <Col xs='3'> 
                                             <Form.Label>Rceive Quote</Form.Label>
                                             <Form.Check 
@@ -74,7 +74,7 @@ function Contact() {
                                             <Form.Label>Priority</Form.Label>
                                             <Form.Range />
                                         </Col>
-                                    </Row>
+                                    </Row> */}
                                     <Row className="mb-3">
                                         <div className="d-grid gap-2">
                                             <Button size="lg">
@@ -92,7 +92,7 @@ function Contact() {
             <hr style={{color:'goldenrod', width:'0', border: '0px solid gold'}}/>
                 <div class="container">
                     <div class="row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6" >
                         <h6>Paradise Style Studio</h6>
                         <div className='Landing-footer-text'>
                             Premium manufacturer of designer tiles and stones. exotic collection of all types tiles indoor ,outdoor ,exterior , cladding, kitchen, floor.<br></br><br></br>

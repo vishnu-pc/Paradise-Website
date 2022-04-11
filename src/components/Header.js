@@ -11,13 +11,11 @@ function Header() {
         className="nav-header"
         variant="dark"
         expand="lg"
-        style={{ background: "none" }}
       >
-        <Container style={{ marginLeft: "50px", width: "100%" }}>
+        <Container>
           <Navbar.Brand
             id="nav-hover-name"
             href="#home"
-            style={{ paddingLeft: "50px", paddingRight: "1200px" }}
           >
             <img
               alt=""
