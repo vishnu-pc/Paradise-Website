@@ -6,7 +6,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="abc">
+    <div className="navigation-bar-with-logo">
       <Navbar
         className="nav-header"
         variant="dark"
@@ -28,7 +28,7 @@ function Header() {
           <Nav className="form-inline my-2 my-lg-0">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto" style={{ color: "white" }}>
+              <Nav className="me-auto">
                 <Nav.Link id="nav-hover" href="#home">
                   Home
                 </Nav.Link>

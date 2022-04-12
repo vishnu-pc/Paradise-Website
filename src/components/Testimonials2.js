@@ -15,7 +15,7 @@ function Testimonials2() {
                 <div className="testimonial-section-title">What our clients have had to say about us</div>
                 <div class="test-element">
                     <Carousel fade>
-                    <Carousel.Item interval={2000}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
                         src= {project1}
@@ -28,7 +28,7 @@ function Testimonials2() {
                             <p>Apple</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={2000}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
                         src= {project2}
@@ -41,7 +41,7 @@ function Testimonials2() {
                             <p>Microsoft</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={2000}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
                         src= {project3}

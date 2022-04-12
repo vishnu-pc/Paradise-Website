@@ -1,6 +1,7 @@
 import React from "react";
 import "./VideoBackground.css";
 import sample from "../assets/videos/Sample-Background-Video.mp4";
+import { Button } from 'react-bootstrap';
 
 function Video() {
   return (
@@ -11,6 +12,8 @@ function Video() {
       <div class="text-in-video">
         <h1>Paradise</h1>
         <p>Style studio</p>
+        <br></br>
+        <Button variant="primary" id='browse-products-button'>View</Button>{' '}
       </div>
     </div>
   );

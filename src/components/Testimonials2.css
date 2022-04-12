@@ -1,13 +1,13 @@
 .testimonial2{
     /* padding: 10%; */
-    background-color: white;
+    background-color: var(--filler-color-1);
     width: 80%;
     margin: auto;
     position: relative;
 }
 
 .testimonial-section-title{
-    color: rgba(215,189,172,255);
+    color: var(--primary-color);
     text-align: center;
     font-weight: bold;
     font-size: xxx-large;
@@ -17,7 +17,7 @@
 }
 
 .testimonial-section-title:hover{
-    color: rgba(182,166,142,255);
+    color: var(--secondary-color);
     transition: 1s;
 }
 
@@ -25,7 +25,7 @@
     content: "";
     width: 0%;
     height: 5px;
-    background: rgba(215,189,172,255);
+    background: var(--primary-color);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -39,7 +39,7 @@
     margin: auto;
     width: 100%;
     margin-bottom: 5%;
-    box-shadow:20px 20px 10px 0px rgba(215,189,172,255);
+    box-shadow:20px 20px 10px 0px var(--primary-color);
 }
 
 .test-element:hover {
@@ -67,5 +67,5 @@
 
 .carousel-caption {
     padding: 1%;
-    /* background: rgba(182,166,142,0.5); */
+    /* background: var(--filler-color-2); */
 }

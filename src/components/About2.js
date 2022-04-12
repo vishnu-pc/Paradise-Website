@@ -10,7 +10,12 @@ function About2() {
     <>
     <div  className='about-slide1'>
       <Row>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={7}>
+          <div className='about-slide-image-section'>
+            <img src={about1} alt="About image 1" id="about-page-image-1"/>
+          </div>
+        </Col>
+        <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section">
@@ -29,19 +34,9 @@ function About2() {
             </p>
           </div>
         </Col>
-        <Col xs={12} md={6}>
-          <div className='about-slide-image-section'>
-            <img src={about1} alt="jd" id="about-page-image-1"/>
-          </div>
-        </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6}>
-          <div className='about-slide-image-section'>
-            <img src={about2} alt="jd" id="about-page-image-1"/>
-          </div>
-        </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section">
@@ -58,9 +53,19 @@ function About2() {
             </p>
           </div>
         </Col>
+        <Col xs={12} md={7}>
+          <div className='about-slide-image-section'>
+            <img src={about2} alt="About image 2" id="about-page-image-1"/>
+          </div>
+        </Col>
       </Row>
       <Row>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={7}>
+          <div className='about-slide-image-section'>
+            <img src={about3} alt="About image 3" id="about-page-image-1"/>
+          </div>
+        </Col>
+        <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section">
@@ -77,11 +82,6 @@ function About2() {
               to be the go-to brand when one considers luxurious interiors
               and exteriors.
             </p>
-          </div>
-        </Col>
-        <Col xs={12} md={6}>
-          <div className='about-slide-image-section'>
-            <img src={about3} alt="jd" id="about-page-image-1"/>
           </div>
         </Col>
       </Row>

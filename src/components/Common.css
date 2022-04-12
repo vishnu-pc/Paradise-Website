@@ -1,0 +1,28 @@
+:root {
+    --primary-color: rgba(215,189,172,255) ;
+    --secondary-color: rgba(182,166,142,255) ;
+    --tertiary-color: #AC7C3F;
+    --filler-color-1: white;
+    --filler-color-2: black;
+    --filler-color-3: grey;
+    --filler-color-4: #33353d;
+}
+
+/* 
+
+Sexy-Gold: #AC7C3F 
+Funny-Peach: rgba(215,189,172,255) 
+Used-cute-shoe-Gold: rgba(182,166,142,255)
+Dark-shoe-Gold: #9b874e
+Body-grey: rgb(108, 108, 108)
+footer-social-icons: #33353d
+
+--primary-color: Funny-Peach;
+--secondary-color: Used-cute-shoe-Gold;
+--tertiary-color: Sexy-gold;
+--filler-color-1: white;
+--filler-color-2: black;
+--filler-color-3: grey;
+--filler-color-4: footer-social-icons;
+
+*/

@@ -35,22 +35,22 @@ function Contact() {
                                     <Row className="mb-3">
                                         <Col>
                                         <Form.Label >Name</Form.Label>
-                                        <Form.Control placeholder="Full Name" size="md"/>
+                                        <Form.Control placeholder="Full Name" size="md" id="small-form-control-box"/>
                                         </Col>
                                         <Col>
                                         <Form.Label>Telephone</Form.Label>
-                                        <Form.Control placeholder="Telephone No" size="md"/>
+                                        <Form.Control placeholder="Telephone No" size="md" id="small-form-control-box"/>
                                         </Col>
                                     </Row>
                                     <Row className="mb-3">
                                         <Col>
                                         <Form.Label>Email</Form.Label>
-                                        <Form.Control placeholder="Email ID" size="md"/>
+                                        <Form.Control placeholder="Email ID" size="md" id="small-form-control-box"/>
                                         </Col>
                                     </Row>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                         <Form.Label>Message</Form.Label>
-                                        <Form.Control as="textarea" style={{height:''}} rows={5} placeholder="Enter a message here" />
+                                        <Form.Control as="textarea" rows={3} placeholder="Enter a message here" />
                                     </Form.Group>
                                     {/* <Row className="mb-3">
                                         <Col xs='3'> 
