@@ -29,7 +29,7 @@ function Contact() {
                         </Col>
                         <Col xs={12} md={4} className="mt-5 mb-2">
                             <div className='contact-form'>
-                                <h3 className="about-title" style={{'font-size':'xx-large'}}>Get in touch with us</h3>
+                                <h3 className="get-in-touch">Lets get in touch</h3>
                                 <br></br>
                                 <Form>
                                     <Row className="mb-3">
@@ -105,7 +105,7 @@ function Contact() {
                         <ul class="footer-links">
                             <li>Telephone: 080 4959 7762</li>
                             <li>Email: godknowswhat@gmail.com</li>
-                            <li><strong>Hours:</strong></li>
+                            <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>
                             <li>Saturday: 10AM - 8PM</li>
