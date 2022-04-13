@@ -9,17 +9,23 @@
   font-weight: bold;
 }
 
-.nav-header #nav-hover{
+.nav-header-op2 {
+  /* background: fixed; */
+  background-color: var(--filler-color-2);
+  font-weight: bold;
+}
+
+#nav-hover{
   color: var(--filler-color-1);
   /* transition: 0.5s; */
 }
 
-.nav-header #nav-hover:hover {
+#nav-hover:hover {
   /* color: var(--secondary-color); */
   transition: 0.5s;
 }
 
-.nav-header #nav-hover::after {
+#nav-hover::after {
   content: "";
   width: 0%;
   height: 10%;
@@ -29,6 +35,6 @@
   transition: 0.5s;
 }
 
-.nav-header #nav-hover:hover::after {
+#nav-hover:hover::after {
   width: 100%;
 }

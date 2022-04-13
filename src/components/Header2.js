@@ -4,11 +4,11 @@ import Container from "react-bootstrap/Container";
 import logo from "../assets/images/paradise-transparent.png";
 import "./Header.css";
 
-function Header() {
+function Header2() {
   return (
     <div className="navigation-bar-with-logo">
       <Navbar
-        className="nav-header"
+        className="nav-header-op2"
         variant="dark"
         expand="lg"
       >
@@ -17,13 +17,13 @@ function Header() {
             id="nav-hover-name"
             href="/"
           >
-            <img
+            {/* <img
               alt=""
               src={logo}
-              width="100"
-              height="100"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
-            />{" "}
+            />{" "} */}
           </Navbar.Brand>
           <Nav className="form-inline my-2 my-lg-0">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -50,4 +50,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header2;
