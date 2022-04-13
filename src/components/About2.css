@@ -68,7 +68,7 @@
     height: auto;
     width: 97%;
     object-fit: cover;
-    box-shadow:20px 20px 10px 0px var(--primary-color);
+    /* box-shadow:5px 5px 0px 0px var(--filler-color-3); */
     /* border-radius: 5%; */
 }
 
