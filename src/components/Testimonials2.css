@@ -6,6 +6,12 @@
     position: relative;
 }
 
+.testimonial2 .about-slide-heading-section-op2 {
+    text-align: left;
+    /* width: 60%;
+    margin: auto; */
+}
+
 .testimonial-section-title{
     color: var(--primary-color);
     text-align: center;
@@ -58,14 +64,14 @@
     font-size: large;
 }
 
-.carousel img{
+.test-element .carousel img{
     width: 100%;
     margin: auto;
     height: 70vh;
     object-fit: cover;
 }
 
-.carousel-caption {
+.test-element .carousel-caption {
     padding: 1%;
     /* background: var(--filler-color-2); */
 }

@@ -9,9 +9,13 @@
   font-weight: bold;
 }
 
+.navigation-bar-with-logo-op2 {
+  position: relative;
+  width: 100%;
+}
+
 .nav-header-op2 {
-  /* background: fixed; */
-  background-color: var(--filler-color-2);
+  background-color: var(--secondary-color);
   font-weight: bold;
 }
 

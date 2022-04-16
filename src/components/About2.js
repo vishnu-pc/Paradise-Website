@@ -1,11 +1,15 @@
 import React from "react";
 import "./About2.css";
 import { Row, Col } from "react-bootstrap";
+import { Button } from 'react-bootstrap';
 import about1 from "../assets/images/about1.png";
 import about2 from "../assets/images/about2.png";
 import about3 from "../assets/images/about3.png";
 
+// check out: https://www.jaquarlighting.com/
+
 function About2() {
+
   return (
     <>
     <div  className='about-slide1'>
@@ -18,8 +22,8 @@ function About2() {
         <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
-              <div className="about-slide-heading-section">
-                Our Story
+              <div className="about-slide-heading-section-op2">
+                <span>Our Story</span>
               </div>
               Paradise Stile studio is one of the main voices in the floor
               and wall tiles distribution market. Situated in Indiranagar,
@@ -31,6 +35,10 @@ function About2() {
               to the aesthetic of your architectural wonder. Our mission is
               to be the go-to brand when one considers luxurious interiors
               and exteriors.
+              <br></br><br></br><br></br>
+              <Button variant="primary" id='about-learn-more-button' href='/about'>
+                Learn More
+              </Button>{' '}
             </p>
           </div>
         </Col>
@@ -39,8 +47,8 @@ function About2() {
         <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
-              <div className="about-slide-heading-section">
-                Exclusive Selection
+              <div className="about-slide-heading-section-op2">
+                <span>Exclusive</span>
               </div>
               Our client base incorporates architects, interior designers,
               students of design, architecture and more. We cater to anybody
@@ -50,6 +58,10 @@ function About2() {
               They say luxury is in freedom and we provide our clients the
               freedom to pick the right design for their homes and
               architecture.
+              <br></br><br></br><br></br>
+              <Button variant="primary" id='about-learn-more-button' href='/products'>
+                Learn More
+              </Button>{' '}
             </p>
           </div>
         </Col>
@@ -68,8 +80,8 @@ function About2() {
         <Col xs={12} md={5}>
           <div className='about-slide-text-section'>
             <p>
-              <div className="about-slide-heading-section">
-                Diverse Range
+              <div className="about-slide-heading-section-op2">
+                <span>Diverse</span>
               </div>
               Paradise Stile studio is one of the main voices in the floor
               and wall tiles distribution market. Situated in Indiranagar,
@@ -81,6 +93,10 @@ function About2() {
               to the aesthetic of your architectural wonder. Our mission is
               to be the go-to brand when one considers luxurious interiors
               and exteriors.
+              <br></br><br></br><br></br>
+              <Button variant="primary" id='about-learn-more-button' href='/products'>
+                Learn More
+              </Button>{' '}
             </p>
           </div>
         </Col>

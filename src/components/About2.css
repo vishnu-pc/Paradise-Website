@@ -41,6 +41,7 @@
 }
 
 .about-slide-heading-section:hover::after {
+    content: "";
     width: 80%;
 }
 
@@ -68,13 +69,95 @@
     height: auto;
     width: 97%;
     object-fit: cover;
+    filter: grayscale(100%);
     /* box-shadow:5px 5px 0px 0px var(--filler-color-3); */
     /* border-radius: 5%; */
 }
 
 #about-page-image-1:hover {
-    -webkit-transform: scale(1.03);
+    filter: grayscale(0%);
+    /* -webkit-transform: scale(1.03);
         -ms-transform: scale(1.03);
-        transform: scale(1.03);
+        transform: scale(1.03); */
     transition: 0.5s;
+}
+
+#about-learn-more-button{
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 30px;
+}
+
+/* #about-read-more-button:hover {
+} */
+
+/* ***************** Imported ************************* */
+
+.about-slide-heading-section-op2 {
+    text-decoration: none;
+    color: var(--filler-color-2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: auto;
+    padding: 15px 30px;
+    transition: all 0.2s ease;
+    padding-bottom: 7%;
+}
+
+.about-slide-heading-section-op2:hover {
+    text-decoration: none;
+    color: var(--filler-color-1);
+}
+
+.about-slide-heading-section-op2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 45px;
+    /* background: rgba(255, 171, 157, 0.5); */
+    background: var(--primary-color);
+    width: 90px;
+    height: 90px;
+    transition: all 0.3s ease;
+}
+
+.about-slide-heading-section-op2 span {
+    font-weight: bold;
+    font-size: xxx-large;
+    position: relative;
+    /* font-size: 16px; */
+    /* line-height: 18px; */
+    /* font-weight: 900; */
+    /* letter-spacing: 0.25em; */
+    /* text-transform: uppercase; */
+    vertical-align: middle;
+}
+
+/* .products-section .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+} */
+
+.about-slide-heading-section-op2:hover:before {
+    width: 100%;
+    /* background: #ffab9d; */
+    background: var(--primary-color);
+}
+
+/* .products-section .cta:hover svg {
+    transform: translateX(0);
+} */
+
+.about-slide-heading-section-op2:active {
+    transform: scale(0.96);
 }

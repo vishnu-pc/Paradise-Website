@@ -6,7 +6,7 @@ import "./Header.css";
 
 function Header2() {
   return (
-    <div className="navigation-bar-with-logo">
+    <div className="navigation-bar-with-logo-op2">
       <Navbar
         className="nav-header-op2"
         variant="dark"

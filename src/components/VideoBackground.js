@@ -13,7 +13,7 @@ function Video() {
         <h1>Paradise</h1>
         <p>Style studio</p>
         <br></br>
-        <Button variant="primary" id='browse-products-button'>View</Button>{' '}
+        <a href='/products'><Button variant="primary" id='browse-products-button'>View</Button>{' '}</a>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import About1 from "../assets/images/About1.jpeg";
 import { Row, Col } from "react-bootstrap";
 import { render } from "@testing-library/react";
 import sample from "../assets/images/jd.jpg";
-import sample2 from "../assets/images/rolex.jpg";
+// import sample2 from "../assets/images/rolex.jpg";
 
 function About() {
   const containerRef = useRef(null);

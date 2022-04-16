@@ -12,7 +12,7 @@ import project3 from '../assets/images/project3.jpg';
 function Testimonials2() {
     return (
             <div class="testimonial2">
-                <div className="testimonial-section-title">What our clients have to say</div>
+                <div className="about-slide-heading-section-op2"><span>Testimonials</span></div>
                 <div class="test-element">
                     <Carousel fade>
                     <Carousel.Item interval={1500}>
