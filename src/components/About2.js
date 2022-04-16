@@ -2,9 +2,9 @@ import React from "react";
 import "./About2.css";
 import { Row, Col } from "react-bootstrap";
 import { Button } from 'react-bootstrap';
-import about1 from "../assets/images/about1.png";
-import about2 from "../assets/images/about2.png";
-import about3 from "../assets/images/about3.png";
+import about1 from "../assets/images/about-op2-1.jpg";
+import about2 from "../assets/images/about-op2-2.jpg";
+import about3 from "../assets/images/about-op2-3.jpg";
 
 function About2() {
 
