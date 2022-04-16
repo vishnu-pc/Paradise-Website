@@ -30,8 +30,17 @@
 .background-video h1 {
   font-size: 84px;
 }
+
 #browse-products-button{
   background-color: var(--primary-color);
   border: 0;
   border-radius: 30px;
+}
+
+#browse-products-button:hover{
+  background-color: var(--primary-color);
+  -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
 }

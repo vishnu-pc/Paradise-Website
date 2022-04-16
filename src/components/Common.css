@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgba(215,189,172,255) ;
-    --secondary-color: rgba(182,166,142,255) ;
+    --primary-color: rgba(255, 171, 157, 0.5) ;
+    --secondary-color: #ffab9d ;
     --tertiary-color: #AC7C3F;
     --filler-color-1: white;
     --filler-color-2: black;
@@ -16,10 +16,23 @@ Used-cute-shoe-Gold: rgba(182,166,142,255)
 Dark-shoe-Gold: #9b874e
 Body-grey: rgb(108, 108, 108)
 footer-social-icons: #33353d
-fun-pink: rgba(255, 171, 157, 0.5); or #ffab9d;
+fun-pink: light -> rgba(255, 171, 157, 0.5); dark -> #ffab9d;
+fun-green: #00F0B5
 
---primary-color: Funny-Peach;
---secondary-color: Used-cute-shoe-Gold;
+paradise logo green: #74c243;
+paradise logo black: #0c0a05;
+paradise plant light green: #c8d23f;
+paradise plant green dark: #3f5920;
+paradise sofa cream: #c8b684;
+paradise chair brown: #211510;
+paradise wall wood light brown: #ecdac5;
+paradise wall wood medium dark: #b79c67;
+paradise wall wood dark brown: #8f6c38;
+paradise sky light blue: #cacfdb;
+paradise wall stone grey: #d3cab8;
+
+--primary-color: fun-pink -> light ;
+--secondary-color: fun-pink -> dark;
 --tertiary-color: Sexy-gold;
 --filler-color-1: white;
 --filler-color-2: black;

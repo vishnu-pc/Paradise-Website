@@ -122,7 +122,7 @@
     background: var(--primary-color);
     width: 90px;
     height: 90px;
-    transition: all 0.3s ease;
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .about-slide-heading-section-op2 span {
@@ -151,7 +151,7 @@
 } */
 
 .about-slide-heading-section-op2:hover:before {
-    width: 70%;
+    width: 60%;
     /* background: #ffab9d; */
     background: var(--primary-color);
 }
