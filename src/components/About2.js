@@ -6,20 +6,18 @@ import about1 from "../assets/images/about1.png";
 import about2 from "../assets/images/about2.png";
 import about3 from "../assets/images/about3.png";
 
-// check out: https://www.jaquarlighting.com/
-
 function About2() {
 
   return (
     <>
     <div  className='about-slide1'>
-      <Row>
-        <Col xs={12} md={7}>
+      <Row className='gx-0'>
+        <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
             <img src={about1} alt="About image 1" id="about-page-image-1"/>
           </div>
         </Col>
-        <Col xs={12} md={5}>
+        <Col xs={12} md={6}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section-op2">
@@ -43,8 +41,8 @@ function About2() {
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col xs={12} md={5}>
+      <Row className='gx-0'>
+        <Col xs={12} md={6}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section-op2">
@@ -65,19 +63,19 @@ function About2() {
             </p>
           </div>
         </Col>
-        <Col xs={12} md={7}>
+        <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
             <img src={about2} alt="About image 2" id="about-page-image-1"/>
           </div>
         </Col>
       </Row>
-      <Row>
-        <Col xs={12} md={7}>
+      <Row className='gx-0'>
+        <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
             <img src={about3} alt="About image 3" id="about-page-image-1"/>
           </div>
         </Col>
-        <Col xs={12} md={5}>
+        <Col xs={12} md={6}>
           <div className='about-slide-text-section'>
             <p>
               <div className="about-slide-heading-section-op2">
