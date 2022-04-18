@@ -73,5 +73,5 @@
 
 .test-element .carousel-caption {
     padding: 1%;
-    /* background: var(--filler-color-2); */
+    background: var(--background-filler-1);
 }
