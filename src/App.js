@@ -6,6 +6,9 @@ import VideoBackground from './components/VideoBackground'
 // import About from './components/About'
 import About2 from './components/About2'
 // import Testimonials from './components/Testimonials'
+import Projects from './components/Projects'
+// import Logo from './components/LogoTestimonial'
+import Partners from './components/TrustedPartners'
 import Testimonials2 from './components/Testimonials2'
 import Contact from './components/Contact'
 import ProductsPage from './components/products-page/ProductsPage';
@@ -20,7 +23,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<><Header /><VideoBackground /><About2 />
-            <Testimonials2 /><Contact /></>} />
+            <Projects /><Testimonials2 /><Partners /><Contact /></>} />
           <Route path='/products' element={<><ProductsPage /></>} />
           <Route path='/about' element={<><Header /></>} />
           <Route path='/contact' element={<><Header /></>} />
