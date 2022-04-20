@@ -1,13 +1,9 @@
-import React from 'react'
 import './Testimonials2.css'
 import { Carousel } from 'react-bootstrap';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
-import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
-import goldtile from '../assets/images/gold-tile.jpeg';
-import parallaxBackground from "../assets/images/parallaxBackground.jpg";
-import project1 from '../assets/images/project1.jpg';
-import project2 from '../assets/images/project2.jpg';
-import project3 from '../assets/images/project3.jpg';
+import project1 from '../../assets/images/project1.jpg';
+import project2 from '../../assets/images/project2.jpg';
+import project3 from '../../assets/images/project3.jpg';
 
 function Testimonials2() {
     return (

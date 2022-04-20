@@ -1,11 +1,11 @@
 import './Projects.css'
 import { Container, Row, Col } from "react-bootstrap";
-import project1 from '../assets/images/recent-projects-1.jpeg';
-import project2 from '../assets/images/recent-projects-2.jpeg';
-import project3 from '../assets/images/recent-projects-3.jpeg';
-import project4 from '../assets/images/recent-projects-4.jpeg';
-import project5 from '../assets/images/recent-projects-5.jpeg';
-import project6 from '../assets/images/recent-projects-6.jpeg';
+import project1 from '../../assets/images/recent-projects-1.jpeg';
+import project2 from '../../assets/images/recent-projects-2.jpeg';
+import project3 from '../../assets/images/recent-projects-3.jpeg';
+import project4 from '../../assets/images/recent-projects-4.jpeg';
+import project5 from '../../assets/images/recent-projects-5.jpeg';
+import project6 from '../../assets/images/recent-projects-6.jpeg';
 
 function Projects() {
     return (

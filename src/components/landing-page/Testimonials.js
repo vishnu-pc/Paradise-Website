@@ -1,7 +1,6 @@
-import React from 'react'
 import './Testimonials.css'
-import person1 from '../assets/images/person1.jpg';
-import person2 from '../assets/images/person2.jpg';
+import person1 from '../../assets/images/person1.jpg';
+import person2 from '../../assets/images/person2.jpg';
 
 function Testimonials() {
     return (

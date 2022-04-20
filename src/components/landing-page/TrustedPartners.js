@@ -1,14 +1,13 @@
-import React from 'react'
 import './TrustedPartners.css'
 import { Container, Row, Col } from "react-bootstrap";
-import partner1 from '../assets/images/trusted-partner-1.png';
-import partner2 from '../assets/images/trusted-partner-2.png';
-import partner3 from '../assets/images/trusted-partner-3.png';
-import partner4 from '../assets/images/trusted-partner-4.png';
-import partner5 from '../assets/images/trusted-partner-5.png';
-import partner6 from '../assets/images/trusted-partner-6.png';
-import partner7 from '../assets/images/trusted-partner-7.png';
-import partner8 from '../assets/images/trusted-partner-8.png';
+import partner1 from '../../assets/images/trusted-partner-1.png';
+import partner2 from '../../assets/images/trusted-partner-2.png';
+import partner3 from '../../assets/images/trusted-partner-3.png';
+import partner4 from '../../assets/images/trusted-partner-4.png';
+import partner5 from '../../assets/images/trusted-partner-5.png';
+import partner6 from '../../assets/images/trusted-partner-6.png';
+import partner7 from '../../assets/images/trusted-partner-7.png';
+import partner8 from '../../assets/images/trusted-partner-8.png';
 
 function Partners() {
     return (

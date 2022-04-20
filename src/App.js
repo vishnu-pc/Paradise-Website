@@ -1,33 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 import './components/Common.css';
-import Header from './components/Header'
-import VideoBackground from './components/VideoBackground'
-// import About from './components/About'
-import About2 from './components/About2'
-// import Testimonials from './components/Testimonials'
-import Projects from './components/Projects'
-// import Logo from './components/LogoTestimonial'
-import Partners from './components/TrustedPartners'
-import Testimonials2 from './components/Testimonials2'
-import Contact from './components/Contact'
+import LandingPage from './components/landing-page/LandingPage';
 import ProductsPage from './components/products-page/ProductsPage';
+import AboutPage from './components/about-page/AboutPage';
+import ContactPage from './components/contact-page/ContactPage';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
-{/* <Testimonials />  */}
-{/* <About /> */}
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path='/' element={<><Header /><VideoBackground /><About2 />
-            <Projects /><Testimonials2 /><Partners /><Contact /></>} />
+          <Route exact path='/' element={<><LandingPage /></>} />
           <Route path='/products' element={<><ProductsPage /></>} />
-          <Route path='/about' element={<><Header /></>} />
-          <Route path='/contact' element={<><Header /></>} />
-          <Route path='/catalogue' element={<><Header /></>} />
+          <Route path='/about' element={<><AboutPage /></>} />
+          <Route path='/contact' element={<><ContactPage /></>} />
+          <Route path='/catalogue' element={<></>} />
         </Routes>
       </Router>
     </div>

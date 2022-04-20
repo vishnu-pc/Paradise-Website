@@ -1,7 +1,5 @@
-import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import {Form, Button} from 'react-bootstrap';
-import {Table} from 'react-bootstrap';
 import './Contact.css'
 
 function Contact() {

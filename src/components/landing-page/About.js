@@ -1,9 +1,9 @@
-import React, { FC, useEffect, useRef, useState } from "react";
+// import React, { FC, useEffect, useRef, useState } from "react";
 import "./About.css";
-import About1 from "../assets/images/About1.jpeg";
+// import About1 from "../../assets/images/About1.jpeg";
 import { Row, Col } from "react-bootstrap";
-import { render } from "@testing-library/react";
-import sample from "../assets/images/jd.jpg";
+// import { render } from "@testing-library/react";
+import sample from "../../assets/images/jd.jpg";
 // import sample2 from "../assets/images/rolex.jpg";
 
 function About() {
