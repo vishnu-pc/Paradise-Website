@@ -1,0 +1,80 @@
+.body-section3 {
+  background: url("../assets/flintstones-images/stone_veneer.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0px;
+  padding: 30px;
+}
+.first-card {
+  height: 70%;
+  min-width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  background: black;
+  border-radius: 30px;
+  filter: grayscale(100%);
+}
+
+.center-text-card {
+  position: relative;
+  color: rgba(222, 222, 222);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+#concrete {
+  background: url("../assets/flintstones-images/Concrete.jpg");
+  background-size: 100%;
+}
+#concrete:hover {
+  filter: grayscale(0%);
+  transition: 1s;
+  animation: zoom linear 10s;
+}
+@keyframes zoom {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 200%;
+  }
+  100% {
+    background-size: 400%;
+  }
+}
+#basins {
+  background: url("../assets/flintstones-images/Basin.jpg");
+  background-size: 100%;
+  filter: grayscale(100%);
+}
+#basins:hover {
+  filter: grayscale(0%);
+  animation: zoom linear 10s;
+  transition: 1s;
+}
+#luxury {
+  background: url("../assets/flintstones-images/Luxury.jpg");
+  background-size: 100%;
+  filter: grayscale(100%);
+}
+#luxury:hover {
+  filter: grayscale(0%);
+  animation: zoom linear 10s;
+  transition: 1s;
+}
+#carpets {
+  background: url("../assets/flintstones-images/Carpet.jpg");
+  background-size: 100%;
+  filter: grayscale(100%);
+}
+#carpets:hover {
+  filter: grayscale(0%);
+  animation: zoom linear 10s;
+  transition: 1s;
+}

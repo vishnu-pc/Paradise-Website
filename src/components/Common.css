@@ -1,12 +1,12 @@
 :root {
-    --primary-color: rgba(255, 171, 157, 0.5);
-    --secondary-color: #ffab9d ;
-    --tertiary-color: #AC7C3F;
-    --filler-color-1: white;
-    --filler-color-2: black;
-    --filler-color-3: grey;
-    --filler-color-4: #33353d;
-    --background-filler-1: rgba(0, 0, 0, 0.0);
+  --primary-color: rgba(255, 171, 157, 0.3);
+  --secondary-color: #ffab9d;
+  --tertiary-color: #ac7c3f;
+  --filler-color-1: white;
+  --filler-color-2: black;
+  --filler-color-3: grey;
+  --filler-color-4: #33353d;
+  --background-filler-1: rgba(0, 0, 0, 0);
 }
 
 /* 

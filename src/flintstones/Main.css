@@ -1,0 +1,27 @@
+.body {
+  background: url("../assets/flintstones-images/MainBackground.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 30px;
+}
+.body-transform {
+  transform: scale(1.5) 2s;
+}
+.center-text {
+  position: absolute;
+  color: rgba(222, 222, 222);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10vh;
+  font-weight: bold;
+  text-shadow: 8px 4px black;
+  border: goldenrod;
+  border-width: 2px;
+  border-style: solid;
+}
+p {
+  margin: 10px;
+}

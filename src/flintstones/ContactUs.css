@@ -1,0 +1,31 @@
+.contact-us-body {
+  background: rgb(0, 0, 0);
+  height: auto;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.center-text-contact-us {
+  position: relative;
+  color: rgba(222, 222, 222);
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 10vh;
+  font-weight: bold;
+  text-align: justify;
+
+  text-shadow: 5px 2px rgb(248, 150, 2);
+}
+
+.contact-card {
+  background-image: url("../assets/flintstones-images/ContactForm.png");
+  background-size: 100% 100%;
+  height: 60vh;
+  width: 60vh;
+
+  border-radius: 8px;
+  top: 20%;
+  left: 10%;
+  position: relative;
+}
