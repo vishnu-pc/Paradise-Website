@@ -2,7 +2,7 @@ import './App.css';
 import './components/Common.css';
 import LandingPage from './components/landing-page/LandingPage';
 import ProductsPage from './components/products-page/ProductsPage';
-import AboutPage from './components/about-page/AboutPage';
+import { AboutPage } from './components' 
 import ContactPage from './components/contact-page/ContactPage';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 

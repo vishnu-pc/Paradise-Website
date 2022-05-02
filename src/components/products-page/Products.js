@@ -1,10 +1,6 @@
 import './Products.css'
 import { Container, Row, Col } from "react-bootstrap";
 import { Carousel } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import project1 from '../../assets/images/recent-projects-1.jpeg';
-import project2 from '../../assets/images/recent-projects-2.jpeg';
-import project3 from '../../assets/images/recent-projects-3.jpeg';
 import sample from "../../assets/videos/Sample-Background-Video.mp4";
 
 function Products() {
