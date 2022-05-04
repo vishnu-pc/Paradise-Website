@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import logo from "../assets/images/paradise-transparent.png";
 import "./Header.css";
 
 function Header() {
@@ -19,7 +18,7 @@ function Header() {
           >
             <img
               alt=""
-              src={logo}
+              src= 'assets/images/paradise-transparent.png'
               width="100"
               height="100"
               className="d-inline-block align-top"
