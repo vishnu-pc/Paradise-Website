@@ -1,9 +1,6 @@
 import "./About2.css";
 import { Row, Col } from "react-bootstrap";
 import { Button } from 'react-bootstrap';
-import about1 from "../../assets/images/about-op2-1.jpg";
-import about2 from "../../assets/images/about-op2-2.jpg";
-import about3 from "../../assets/images/about-op2-3.jpg";
 
 function About2() {
 
@@ -13,7 +10,7 @@ function About2() {
       <Row className='gx-0'>
         <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
-            <img src={about1} alt="About image 1" id="about-page-image-1"/>
+            <img src = '/assets/images/about-op2-1.jpg' alt="About 1" id="about-page-image-1"/>
           </div>
         </Col>
         <Col xs={12} md={6}>
@@ -64,14 +61,14 @@ function About2() {
         </Col>
         <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
-            <img src={about2} alt="About image 2" id="about-page-image-1"/>
+            <img src= '/assets/images/about-op2-2.jpg' alt="About 2" id="about-page-image-1"/>
           </div>
         </Col>
       </Row>
       <Row className='gx-0'>
         <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
-            <img src={about3} alt="About image 3" id="about-page-image-1"/>
+            <img src= '/assets/images/about-op2-3.jpg' alt="About 3" id="about-page-image-1"/>
           </div>
         </Col>
         <Col xs={12} md={6}>

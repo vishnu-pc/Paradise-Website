@@ -1,11 +1,5 @@
 import './Projects.css'
 import { Container, Row, Col } from "react-bootstrap";
-import project1 from '../../assets/images/recent-projects-1.jpeg';
-import project2 from '../../assets/images/recent-projects-2.jpeg';
-import project3 from '../../assets/images/recent-projects-3.jpeg';
-import project4 from '../../assets/images/recent-projects-4.jpeg';
-import project5 from '../../assets/images/recent-projects-5.jpeg';
-import project6 from '../../assets/images/recent-projects-6.jpeg';
 
 function Projects() {
     return (
@@ -16,7 +10,7 @@ function Projects() {
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project1} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-1.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -29,7 +23,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project2} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-2.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -42,7 +36,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project3} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-3.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -57,7 +51,7 @@ function Projects() {
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project4} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-4.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -70,7 +64,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project5} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-5.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -83,7 +77,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= {project6} alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-6.jpeg' alt="First slide"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>

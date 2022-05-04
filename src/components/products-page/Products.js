@@ -1,7 +1,6 @@
 import './Products.css'
 import { Container, Row, Col } from "react-bootstrap";
 import { Carousel } from 'react-bootstrap';
-import sample from "../../assets/videos/Sample-Background-Video.mp4";
 
 function Products() {
   return (
@@ -176,7 +175,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <video autoPlay loop muted>
-                  <source src={sample} type='video/mp4' />
+                  <source src= 'assets/videos/Sample-Background-Video.mp4' type='video/mp4' />
                 </video>
               </div>
             </Col>

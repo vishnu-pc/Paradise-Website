@@ -1,6 +1,5 @@
 import React from "react";
 import "./VideoBackground.css";
-// import sample from "../../assets/videos/Sample-Background-Video.mp4";
 import { Button } from 'react-bootstrap';
 
 function Video() {

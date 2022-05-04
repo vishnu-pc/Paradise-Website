@@ -1,9 +1,6 @@
 import './Testimonials2.css'
 import { Carousel } from 'react-bootstrap';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
-import project1 from '../../assets/images/project1.jpg';
-import project2 from '../../assets/images/project2.jpg';
-import project3 from '../../assets/images/project3.jpg';
 
 function Testimonials2() {
     return (
@@ -14,7 +11,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= {project1}
+                        src= '/assets/images/testimonial-1.jpg'
                         alt="First slide"
                         />
                         
@@ -27,7 +24,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= {project2}
+                        src= '/assets/images/testimonial-2.jpg'
                         alt="Second slide"
                         />
 
@@ -40,7 +37,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= {project3}
+                        src= '/assets/images/testimonial-3.jpg'
                         alt="Third slide"
                         />
 
