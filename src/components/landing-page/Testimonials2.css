@@ -1,0 +1,77 @@
+.testimonial2{
+    /* padding: 10%; */
+    background-color: var(--filler-color-1);
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.testimonial2 .about-slide-heading-section-op2 {
+    text-align: left;
+    /* width: 60%;
+    margin: auto; */
+}
+
+.testimonial-section-title{
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testimonial-section-title:hover{
+    color: var(--secondary-color);
+    transition: 1s;
+}
+
+.testimonial-section-title::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background: var(--primary-color);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.testimonial-section-title:hover::after {
+    width: 70%;
+}
+
+.test-element{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 5%;
+    /* box-shadow:20px 20px 10px 0px var(--primary-color); */
+}
+
+/* .test-element:hover {
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    transition: 0.5s;
+} */
+
+.test-element h3{
+    text-align: center;
+}
+
+.test-element p{
+    text-align: center;
+    font-size: large;
+}
+
+.test-element .carousel img{
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.test-element .carousel-caption {
+    padding: 1%;
+    background: var(--background-filler-1);
+}

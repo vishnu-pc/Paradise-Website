@@ -1,0 +1,52 @@
+.recent-project {
+    width: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.recent-project .about-slide-heading-section-op2 {
+    text-align: left;
+}
+
+.recent-project-grid {
+    /* padding-bottom: 5%; */
+}
+
+/* .recent-project-row {
+    padding-bottom: 5%;
+} */
+
+.recent-project-col {
+    padding-bottom: 5%;
+}
+
+.recent-project-image-container {
+    position: relative;
+    padding-bottom: 100%;
+    margin-bottom: 5%;
+}
+
+.recent-project-image-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recent-project-text {
+    text-align: center;
+}
+
+.recent-project-text .project-name {
+    font-size: x-large;
+    padding-bottom: 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recent-project-text .project-details {
+    color: var(--filler-color-3);
+    /* text-align: justify; */
+    /* font-family: 'Times New Roman', Times, serif; */
+}

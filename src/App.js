@@ -1,20 +1,23 @@
-//import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
-import VideoBackground from './components/VideoBackground'
-import About from './components/About'
-import Test from './components/Test'
-import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
+import './components/Common.css';
+import LandingPage from './components/landing-page/LandingPage';
+import ProductsPage from './components/products-page/ProductsPage';
+import { AboutPage } from './components' 
+import ContactPage from './components/contact-page/ContactPage';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <VideoBackground />
-      <About />
-      <Testimonials />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<><LandingPage /></>} />
+          <Route path='/products' element={<><ProductsPage /></>} />
+          <Route path='/about' element={<><AboutPage /></>} />
+          <Route path='/contact' element={<><ContactPage /></>} />
+          <Route path='/catalogue' element={<></>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+:root {
+    --primary-color: rgba(255, 171, 157, 0.5);
+    --secondary-color: #ffab9d ;
+    --tertiary-color: #AC7C3F;
+    --filler-color-1: white;
+    --filler-color-2: black;
+    --filler-color-3: grey;
+    --filler-color-4: #33353d;
+    --background-filler-1: rgba(0, 0, 0, 0.0);
+}
+
+/* 
+
+Sexy-Gold: #AC7C3F; rgba(172, 124, 63, 1);
+Funny-Peach: rgba(215,189,172,255);
+Used-cute-shoe-Gold: rgba(182,166,142,255);
+Dark-shoe-Gold: #9b874e; rgba(155, 135, 78, 1);
+Body-grey: rgba(108, 108, 108, 1);
+footer-social-icons: #33353d; rgba(51, 53, 61, 1);
+fun-pink: light -> rgba(255, 171, 157, 0.5); dark -> #ffab9d; rgba(255, 171, 157, 1);
+fun-green: #00F0B5; rgba(0, 240, 181, 1);
+
+paradise logo green: #74c243; rgba(116, 194, 67, 1);
+paradise logo black: #0c0a05; rgba(12, 10, 5, 1);
+paradise plant light green: #c8d23f; rgba(200, 210, 63, 1);
+paradise plant green dark: #3f5920; rgba(63, 89, 32, 1);
+paradise sofa cream: #c8b684; rgba(200, 182, 132, 1);
+paradise chair brown: #211510; rgba(33, 21, 16, 1);
+paradise wall wood light brown: #ecdac5; rgba(236, 218, 197, 1);
+paradise wall wood medium dark: #b79c67; rgba(183, 156, 103, 1);
+paradise wall wood dark brown: #8f6c38; rgba(143, 108, 56, 1);
+paradise sky light blue: #cacfdb; rgba(202, 207, 219, 1);
+paradise wall stone grey: #d3cab8; rgba(211, 202, 184, 1);
+
+--primary-color: fun-pink -> light ;
+--secondary-color: fun-pink -> dark;
+--tertiary-color: Sexy-gold;
+--filler-color-1: white;
+--filler-color-2: black;
+--filler-color-3: grey;
+--filler-color-4: footer-social-icons;
+
+*/

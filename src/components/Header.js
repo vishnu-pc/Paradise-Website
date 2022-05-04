@@ -6,18 +6,16 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="abc">
+    <div className="navigation-bar-with-logo">
       <Navbar
         className="nav-header"
         variant="dark"
         expand="lg"
-        style={{ background: "none" }}
       >
-        <Container style={{ marginLeft: "50px", width: "100%" }}>
+        <Container>
           <Navbar.Brand
             id="nav-hover-name"
-            href="#home"
-            style={{ paddingLeft: "50px", paddingRight: "1200px" }}
+            href="/"
           >
             <img
               alt=""
@@ -30,17 +28,17 @@ function Header() {
           <Nav className="form-inline my-2 my-lg-0">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto" style={{ color: "white" }}>
-                <Nav.Link id="nav-hover" href="#home">
+              <Nav className="me-auto">
+                <Nav.Link id="nav-hover" href="/">
                   Home
                 </Nav.Link>
-                <Nav.Link id="nav-hover" href="#products">
+                <Nav.Link id="nav-hover" href="/products">
                   Products
                 </Nav.Link>
-                <Nav.Link id="nav-hover" href="#about">
+                <Nav.Link id="nav-hover" href="/about">
                   About
                 </Nav.Link>
-                <Nav.Link id="nav-hover" href="#contact">
+                <Nav.Link id="nav-hover" href="/contact">
                   Contact
                 </Nav.Link>
               </Nav>

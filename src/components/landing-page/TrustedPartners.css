@@ -1,0 +1,28 @@
+.trusted-partners {
+    width: 80%;
+    margin: auto;
+}
+
+.trusted-partners .about-slide-heading-section-op2 {
+    text-align: left;
+    /* padding-bottom: 3%; */
+}
+
+.parnter-logo-grid {
+    width: 80%;
+    height: 100%;
+    background-color: var(--primary-color);
+    margin: auto;
+}
+
+.trusted-partner-col {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.trusted-partner-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
