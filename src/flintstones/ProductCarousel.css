@@ -1,5 +1,5 @@
 .body-section3 {
-  background: url("../assets/flintstones-images/stone_veneer.jpg");
+  background: url("../assets/flintstones-images/ProductBackground.jpg");
   height: 80vh;
   background-size: cover;
   background-attachment: fixed;
@@ -14,11 +14,14 @@
   transform: translate(-50%, -50%);
   position: relative;
   background: black;
-  border-radius: 30px;
-  filter: grayscale(100%);
+  padding: 20px;
+  margin: 20px;
+  border: goldenrod;
+  border-width: 4px;
+  border-style: solid;
 }
 
-.center-text-card {
+.center-text-card-product {
   position: relative;
   color: rgba(222, 222, 222);
   top: 50%;
@@ -26,6 +29,7 @@
   transform: translate(-50%, -50%);
   font-size: 5vh;
   font-weight: bold;
+  text-shadow: 5px 2px black;
 }
 
 #concrete {

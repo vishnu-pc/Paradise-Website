@@ -15,8 +15,17 @@ function AboutUS() {
           <Carousel.Item interval={1500}>
             <div class="about-us-body">
               <Row style={{ height: "100vh" }}>
-                <Col style={{ width: "50%" }}>
-                  <img src={test1} width="100%" />
+                <Col style={{ width: "50%", position: "relative" }}>
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
                 </Col>
                 <Col style={{ width: "50%" }}>
                   <p id="scrolldiv" class="center-text-para">
@@ -26,6 +35,10 @@ function AboutUS() {
                     more-or-less normal distribution of letters, as opposed to
                     using 'Content here, content here', making it look like
                     readable English. Many desktop publishing packages and web
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     page editors now use Lorem Ipsum as their default model
                     text, and a search for 'lorem ipsum' will uncover many web
                     sites still in their infancy. Various versions have evolved
@@ -39,9 +52,23 @@ function AboutUS() {
           <Carousel.Item interval={1500}>
             <div class="about-us-body">
               <Row style={{ height: "100vh" }}>
-                <Col style={{ width: "50%" }}>
+                <Col
+                  style={{
+                    width: "50%",
+                    position: "relative",
+                  }}
+                >
                   {" "}
-                  <img src={test2} width="100%" />
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
                 </Col>
                 <Col style={{ width: "50%" }}>
                   <p id="scrolldiv" class="center-text-para">
@@ -50,6 +77,10 @@ function AboutUS() {
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make a
                     type specimen book. It has survived not only five centuries,
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     but also the leap into electronic typesetting, remaining
                     essentially unchanged. It was popularised in the 1960s with
                     the release of Letraset sheets containing Lorem Ipsum
@@ -63,9 +94,18 @@ function AboutUS() {
           <Carousel.Item interval={1500}>
             <div class="about-us-body">
               <Row style={{ height: "100vh" }}>
-                <Col style={{ width: "50%" }}>
+                <Col style={{ width: "50%", position: "relative" }}>
                   {" "}
-                  <img src={test3} width="100%" height="120%" />
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
                 </Col>
                 <Col style={{ width: "50%" }}>
                   <p id="scrolldiv" class="center-text-para">
@@ -77,6 +117,8 @@ function AboutUS() {
                     consectetur, from a Lorem Ipsum passage, and going through
                     the cites of the word in classical literature, discovered
                     the undoubtable source. Lorem Ipsum comes from sections
+                    <br />
+                    <br />
                     1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
                     Extremes of Good and Evil) by Cicero, written in 45 BC. This
                     book is a treatise on the theory of ethics, very popular

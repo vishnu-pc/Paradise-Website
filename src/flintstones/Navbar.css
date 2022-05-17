@@ -10,19 +10,19 @@
 }
 
 .navigation-bar-with-logo-op2 {
-  position: fixed;
+  position: absolute;
   z-index: 5;
   width: 100%;
   height: 100px;
 }
 
 .nav-header-op2 {
-  background-color: black;
+  background: transparent;
   font-weight: bold;
 }
 
 #nav-hover {
-  color: var(--filler-color-1);
+  color: var(--filler-color-2);
   /* transition: 0.5s; */
 }
 

@@ -34,21 +34,25 @@ function ContactUs() {
         ></iframe>
       </div>
       <Row style={{ height: "100vh" }}>
-        <Col style={{ width: "50%" }}>
+        <Col>
           <h1 id="scrolldiv" class="center-text-contact-us">
             Contact Us
           </h1>
         </Col>
         <Col style={{ width: "30%" }}>
           <div class="contact-card">
-            {/* {" "}
-            <img
-              alt=""
-              src={contactForm}
-              style={{ transform: "scale(2)" }}
-              className="d-inline-block align-top"
-              width="50%"
-            /> */}
+            <div class="group">
+              <input type="text" required placeholder="Your Name" />
+            </div>
+            <div class="group">
+              <input type="text" required placeholder="Your E-mail" />
+            </div>
+            <div class="group">
+              <input type="text" required placeholder="Share your thoughts" />
+            </div>
+            <Button variant="outline-dark" size="lg">
+              Submit
+            </Button>
           </div>
         </Col>
       </Row>

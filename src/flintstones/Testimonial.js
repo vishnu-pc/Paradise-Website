@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Carousel, Button, Row, Col } from "react-bootstrap";
 import "./Testimonial.css";
+import test1 from "../assets/flintstones-images/Testimonial2.jpg";
 
 function Testimonial() {
   return (
@@ -26,7 +27,18 @@ function Testimonial() {
                     (injected humour and the like).
                   </p>
                 </Col>
-                <Col style={{ width: "50%" }}></Col>
+                <Col style={{ width: "50%", position: "relative" }}>
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
+                </Col>
               </Row>
             </div>
           </Carousel.Item>
@@ -47,7 +59,18 @@ function Testimonial() {
                     like Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
                 </Col>
-                <Col style={{ width: "50%" }}></Col>
+                <Col style={{ width: "50%", position: "relative" }}>
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
+                </Col>
               </Row>
             </div>
           </Carousel.Item>
@@ -72,7 +95,18 @@ function Testimonial() {
                     1.10.32.
                   </p>
                 </Col>
-                <Col style={{ width: "50%" }}></Col>
+                <Col style={{ width: "50%", position: "relative" }}>
+                  <img
+                    src={test1}
+                    width="80%"
+                    style={{
+                      top: "50%",
+                      left: "50%",
+                      position: "absolute",
+                      transform: "translate(-50%,-50%)",
+                    }}
+                  />
+                </Col>
               </Row>
             </div>
           </Carousel.Item>
