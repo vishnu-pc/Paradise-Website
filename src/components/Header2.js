@@ -16,13 +16,13 @@ function Header2() {
             id="nav-hover-name"
             href="/"
           >
-            {/* <img
+            <img
               alt=""
-              src={logo}
-              width="50"
-              height="50"
+              src= '/assets/images/paradise-transparent.png'
+              width= "100"
+              height= "100"
               className="d-inline-block align-top"
-            />{" "} */}
+            />{" "}
           </Navbar.Brand>
           <Nav className="form-inline my-2 my-lg-0">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

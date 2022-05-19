@@ -5,6 +5,7 @@
 }
 
 .recent-project .about-slide-heading-section-op2 {
+    /* width: 40%; */
     text-align: left;
 }
 
@@ -17,13 +18,13 @@
 } */
 
 .recent-project-col {
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .recent-project-image-container {
     position: relative;
     padding-bottom: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .recent-project-image-container img{
@@ -41,7 +42,7 @@
 
 .recent-project-text .project-name {
     font-size: x-large;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

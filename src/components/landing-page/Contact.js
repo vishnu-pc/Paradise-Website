@@ -91,10 +91,11 @@ function Contact() {
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 col-md-6" >
-                        <h6>Paradise Style Studio</h6>
+                        <h6>Paradise Stile Studio</h6>
                         <div className='Landing-footer-text'>
                             Premium manufacturer of designer tiles and stones. exotic collection of all types tiles indoor ,outdoor ,exterior , cladding, kitchen, floor.<br></br><br></br>
-                            Address: Address: 3273, 11th Main Rd, near ESI Hospital, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038
+                            Address 1: 3273, 11th Main Rd, near ESI Hospital, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038 <br></br><br></br>
+                            Address 2: 1074/E, 11th Main Rd, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038
                         </div>
                     </div>
 
@@ -102,7 +103,7 @@ function Contact() {
                         <h6>Contact</h6>
                         <ul class="footer-links">
                             <li>Telephone: 080 4959 7762</li>
-                            <li>Email: godknowswhat@gmail.com</li>
+                            <li>Email: paradisestilestudio@gmail.com</li>
                             <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>
@@ -113,11 +114,11 @@ function Contact() {
                     <div class="col-xs-6 col-md-3">
                         <h6>Quick Links</h6>
                         <ul class="footer-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Catelogue</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products">Products</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/catalogue">Catalogue</a></li>
                         </ul>
                     </div>
                     </div>
@@ -126,15 +127,15 @@ function Contact() {
                 <div class="container">
                     <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="copyright-text">Copyright &copy; 2022 reserved by Paradise style studio, proudly created with <a href="#">Atliere Solutions</a></div>
+                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/comingsoon">Atliere Solutions</a></div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                        <li><a class="facebook" href="https://www.facebook.com/paradisestilestudio/"><i class="fa fa-facebook"></i></a></li>
+                        {/* <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li> */}
+                        <li><a class="linkedin" href="https://www.linkedin.com/in/paradise-stilestudio-2322001a4/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a></li>   
                         </ul>
                     </div>
                     </div>

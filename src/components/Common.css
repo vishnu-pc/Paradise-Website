@@ -6,7 +6,8 @@
     --filler-color-2: black;
     --filler-color-3: grey;
     --filler-color-4: #33353d;
-    --background-filler-1: rgba(0, 0, 0, 0.0);
+    --filler-color-5: rgba(116, 194, 67, 1);
+    --background-filler-1: rgba(0, 0, 0, 0.5);
 }
 
 /* 

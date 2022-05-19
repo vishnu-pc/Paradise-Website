@@ -55,23 +55,28 @@
     transition: 0.5s;
 } */
 
-.test-element h3{
-    text-align: center;
-}
-
 .test-element p{
     text-align: center;
-    font-size: large;
+    font-size: 2vh;
+}
+
+.test-element h3{
+    text-align: center;
+    font-size: 3vh;
 }
 
 .test-element .carousel img{
     width: 100%;
     margin: auto;
-    height: 70vh;
+    height: 80vh;
     object-fit: cover;
 }
 
 .test-element .carousel-caption {
     padding: 1%;
     background: var(--background-filler-1);
+    overflow: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    text-align: justify;
 }

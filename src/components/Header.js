@@ -6,6 +6,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="navigation-bar-with-logo">
+      {/* <br></br> */}
       <Navbar
         className="nav-header"
         variant="dark"
@@ -18,7 +19,7 @@ function Header() {
           >
             <img
               alt=""
-              src= 'assets/images/paradise-transparent.png'
+              src= 'assets/images/paradise-logo-filler.png'
               width="100"
               height="100"
               className="d-inline-block align-top"

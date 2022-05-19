@@ -14,7 +14,7 @@ function LandingPage() {
         <About2 />
         <Projects />
         <Testimonials2 />
-        <Partners />
+        {/* <Partners /> */}
         <Contact />
     </>
   );

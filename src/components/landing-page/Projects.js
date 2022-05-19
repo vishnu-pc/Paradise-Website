@@ -4,46 +4,48 @@ import { Container, Row, Col } from "react-bootstrap";
 function Projects() {
     return (
             <div class="recent-project">
-                <div className="about-slide-heading-section-op2"><span>Recent Projects</span></div>
+                <div className="about-slide-heading-section-op2"><span>Project Profiles</span></div>
+                <br></br><br></br>
                 <div className='recent-project-grid'>
                     <Container>
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-1.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-1-1.jpg' alt="Category 1"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Urban Loft
+                                        Rustic Meandering
                                     </div>
                                     <div className='project-details'>
-                                        The urban loft is the height of sophisticated, cool, urban living. This style developed when homeowners started to inhabit large, open mono-spaces, typically in ex-commercial or industrial buildings and warehouses.
+                                        Rustic design is all about bringing the outdoors in, but without the biting bugs and the risks of inclement weather. Think raw, reclaimed timbers, exposed beams and unfinished stones, popular with a lot of hipster cafes and restaurants of today. There’s no reason why you can’t recreate this interior design style at home.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-2.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-2-1.jpg' alt="Category 2"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        California Style B&B
+                                        Oriental Mindset
                                     </div>
                                     <div className='project-details'>
-                                        An accommodation offered by an inn, hotel, or especially a private home, consisting of a room for the night and breakfast the next morning for one inclusive price. an inn, hotel, or private home offering such an accommodation.
+                                    Asian-style interiors are more often than not a fusion of styles, with Japanese and Chinese expression leading the way of popular interior design themes.
+                                    Japanese design is minimalist with colours from the natural world informing the colour palette while Chinese design is more opulent with richer, lavish colours are used.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-3.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-3-1.jpg' alt="Category 3"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Clean Design Apartment
+                                        Coastal Randevu
                                     </div>
                                     <div className='project-details'>
-                                        Clean lines are simply put, lines that are unbroken and uninterrupted. We tend to associate clean lines with modern architectural and design periods and contemporary decorating styles.
+                                        Coastal interior design notes feature light, bright, and airy environs often dreamed up in vibrant neutrals to soak up the suns rays. Common coastal color palettes include shades of light blues and greens inspired by the ocean along with an array of creams and neutrals for a relaxed yet elegant finish.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -51,40 +53,40 @@ function Projects() {
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-4.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-4-1.jpg' alt="Category 4"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Midtown Artist Condo
+                                        Traditional Condo
                                     </div>
                                     <div className='project-details'>
-                                        A condo, short for condominium, is an individually owned residential unit in a building or complex comprised of other residential units. Condo owners share a common space and often pay association fees to maintain the common space, amenities, and other shared resources.
+                                        When it comes to interior design styles, almost everything is rooted in traditional interior design ideas, and for good reason. That said, you can make traditional style interior design all your own by incorporating pieces that speak to your personality and lifestyle while making a statement.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-5.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-5-1.jpg' alt="Category 5"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Classic Family Home
+                                        Art Deco Delight
                                     </div>
                                     <div className='project-details'>
-                                        A nuclear family, elementary family or conjugal family is a family group consisting of parents and their children (one or more). It is in contrast to a single-parent family, the larger extended family, or a family with more than two parents.
+                                        Features of this interior design style include geometric shapes and graphic patterns, timber furnishings, minimalistic steel furnishing and natural lighting layered with fluroscent lamp for evening lighting. It incorporates being bold and artistic expression with fresh touches.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-6.jpeg' alt="First slide"/>
+                                    <img src= '/assets/images/recent-projects-6-1.jpg' alt="Category 6"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Rustic Cabin
+                                        Bohemian Escape
                                     </div>
                                     <div className='project-details'>
-                                        Rustic interior design represents a natural, rough, aged, and casual design style. The category is broad and incorporates a range of variations on the style, including Tuscan, coastal, cottage and modern rustic. Regardless of the variation, rustic style highlights rugged, natural beauty.
+                                    One of the most timeless and endlessly popular interior design styles out there, bohemian décor represents a care and fuss-free freedom that’s unquestionably heady and intoxicating. Boasting a globally inspired comfortable mix of exotic finds and vintage and antique furnishings.<br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
