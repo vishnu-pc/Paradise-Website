@@ -7,9 +7,9 @@
 
 .about-process-node-grid img {
     position: relative;
-    height: 50vh;
-    width: 50vh;
-    object-fit: fill;
+    height: 40vh;
+    width: 40vh;
+    object-fit:cover;
     border-radius: 50%;
     overflow: hidden;
     border: 6px solid var(--primary-color);
@@ -22,9 +22,9 @@
 }
 
 .about-process-node img:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
     transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
     z-index: 10;
 }
@@ -49,6 +49,11 @@
     text-align: center;
     font-size: 1.5vh;
     font-weight: bold;
+}
+
+.about-process-node-text-heading {
+    font-size: x-large;
+    padding-bottom: 1%;
 }
 
 .about-process-element .about-slide-heading-section-op2 {

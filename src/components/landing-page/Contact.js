@@ -93,17 +93,24 @@ function Contact() {
                     <div class="col-sm-12 col-md-6" >
                         <h6>Paradise Stile Studio</h6>
                         <div className='Landing-footer-text'>
-                            Premium manufacturer of designer tiles and stones. exotic collection of all types tiles indoor ,outdoor ,exterior , cladding, kitchen, floor.<br></br><br></br>
-                            Address 1: 3273, 11th Main Rd, near ESI Hospital, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038 <br></br><br></br>
-                            Address 2: 1074/E, 11th Main Rd, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038
+                            Premium manufacturers in the designer wall and floor tiles and stone. 
+                            Extensive collection of printed, vitrified, wood finish, natural and 
+                            artificial stones, and more that are perfect for indoors, outdoors, 
+                            bathrooms, and kitchens.<br></br><br></br>
+                            Address 1: 3273, 11th Main Rd, near ESI Hospital, HAL 2nd Stage, 
+                            Appareddipalya, Indiranagar, Bengaluru, Karnataka 
+                            560038 <br></br><br></br>
+                            Address 2: 1074/E, 11th Main Rd, HAL 2nd Stage, Appareddipalya, 
+                            Indiranagar, Bengaluru, Karnataka 560038
                         </div>
                     </div>
 
                     <div class="col-xs-6 col-md-3">
                         <h6>Contact</h6>
                         <ul class="footer-links">
-                            <li>Telephone: 080 4959 7762</li>
-                            <li>Email: paradisestilestudio@gmail.com</li>
+                            <li>Telephone: 080 49597762</li>
+                            <li>Telephone: +91 9880064325</li>
+                            <li>Email: paradisestilestudio@gmail.com</li><br />
                             <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>

@@ -7,7 +7,7 @@ function Products() {
     <div className='products-section'>
       <div className='products-grid-layout'>
         <Container fluid className='gx-0'>
-          <Row className='gx-0'>
+          {/* <Row className='gx-0'>
             <Col xs={12} md={12}>
               <div className='product-grid-element'>
                 <div className= 'product-grid-moodboard'>
@@ -19,29 +19,29 @@ function Products() {
                 </div>
               </div>
             </Col>
-          </Row>
+          </Row> */}
           <Row className='gx-0'>
             <Col xs={12} md={8}>
               <div className='product-grid-element'>
                 <Carousel controls={false} indicators={false} fade={true} >
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile1.jpg"
+                      src= "assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile2.jpg"
+                      src= "assets/product/images/Hexagon/Pulpis-Series-20x24/img14.jpg"
                       alt="Second slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile3.jpg"
+                      src= "assets/product/images/Hexagon/4c91e7b59cc6efa3531d1767305524af.jpg"
                       alt="Third slide"
                       />
                   </Carousel.Item>
@@ -51,7 +51,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Ceramic</h1>Affordability and durability make ceramic the ideal choice for any room in your home, including the bathroom, kitchen, and front entrance. Glazed ceramic tile offers more protection against stains or damage compared to wood, carpet, or even vinyl plank flooring.<br /><br /><b>Find out More</b></p>
+                  <p><h1>Hexagon</h1>The emerald-like hexagons fit neatly on the walls and floors giving a regal touch to any space it adorns. They can be bold with a singular color palette or a splash of artistic madness, the diversity in the range is unparalleled.<br /><br /><b>Make Enquiry</b></p>
                 </div>
               </div>
             </Col>
@@ -59,32 +59,25 @@ function Products() {
           <Row className='gx-0'>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
-                <div className='product-text-element'>
-                  <p><h1>Porcelain</h1>Rectangular subway tiles, once relegated to the New York Subway system, have risen in popularity in recent years as the pinnacle tile shape for backsplashes. Subway tiles are easy to customize using differing lay patterns, lending dimensionality of design to any room.<br /><br /><b>Find out More</b></p>
-                </div>
-              </div>
-            </Col>
-            <Col xs={12} md={4}>
-              <div className='product-grid-element'>
                 <Carousel controls={false} indicators={false} fade>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c1.jpg"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img276.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c2.png"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img47.jpg"
                       alt="Second slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c3.png"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img63.jpg"
                       alt="Third slide"
                       />
                   </Carousel.Item>
@@ -93,9 +86,39 @@ function Products() {
             </Col>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
-                <video autoPlay loop muted>
+                <div className='product-text-element'>
+                  <p><h1>Printed</h1>Be it personified mindfulness tiles such as the Mandala or a customized design of your choice, printed tiles give a whole new definition for aesthetic. The intricate designs when installed together transform your space into a visual spectacle, telling your story to the world.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                {/* <video autoPlay loop muted>
                   <source src = "/assets/product/videos/airpods.mp4" type='video/mp4' />
-                </video>
+                </video> */}
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img71.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img80.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Printed/Printed-Premium/Metallico-Collection/img268.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </Col>
           </Row>
@@ -103,25 +126,32 @@ function Products() {
             <Col xs={12} md={6}>
               <div className='product-grid-element'>
                 <Carousel controls={false} indicators={false} fade>
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c4.png"
+                      src= "/assets/product/images/Wooden-Finish/01_150x1200_wooden Stripe/img18.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c5.png"
+                      src= "/assets/product/images/Wooden-Finish/01_150x1200_wooden Stripe/img34.jpg"
                       alt="Second slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={1500}>
+                  <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c6.png"
+                      src= "/assets/product/images/Wooden-Finish/01_150x1200_wooden Stripe/img42.jpg"
                       alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Wooden-Finish/01_150x1200_wooden Stripe/img26.jpg"
+                      alt="Fourth slide"
                       />
                   </Carousel.Item>
                 </Carousel>
@@ -130,7 +160,7 @@ function Products() {
             <Col xs={12} md={6}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Mandala</h1>A mandala is a geometric configuration of symbols. In various spiritual traditions, mandalas may be employed for focusing attention of practitioners and adepts, as a spiritual guidance tool, for establishing a sacred space and as an aid to meditation and trance induction.<br /><br /><b>Find out More</b></p>
+                  <p><h1>Wooden Finish</h1>A design that realizes our childhood desire for wooden treehouses, this wooden finish flooring brings adventure and nostalgia to the urban landscape.<br /><br /><b>Make Enquiry</b></p>
                 </div>
               </div>
             </Col>
@@ -139,31 +169,38 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Wooden</h1>Wood floor tile has become one of the trends in the flooring industry today. With the developments in manufacturing processes, Ceramic or Vitrified tiles that appears like natural wood is being used in projects big and small. No longer limited to conventional sizes, tile can now be manufactured in planks, rectangular.<br /><br /><b>Find out More</b></p>
+                  <p><h1>Subway</h1>Inspired by the subways of New York, these pristine tiles radiate purity. Be it the clean white look or the Rothko-inspired multi-colored masterpiece, these Subway tiles are sure to Americanize your architecture.<br /><br /><b>Make Enquiry</b></p>
                 </div>
               </div>
             </Col>
             <Col xs={12} md={8}>
               <div className='product-grid-element'>
                 <Carousel controls={false} indicators={false} fade>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile4.jpg"
+                      src= "/assets/product/images/Subway/paradise 161/img90.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile5.jpg"
+                      src= "/assets/product/images/Subway/CINQUETERRE SERIES 10 X 30 CM/img52.jpg"
                       alt="Second slide"
                       />
                   </Carousel.Item>
-                  <Carousel.Item interval={3000}>
+                  <Carousel.Item interval={4000}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Tiles/Tile6.jpg"
+                      src= "/assets/product/images/Subway/paradise 163/img77.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Subway/CINQUETERRE SERIES 10 X 30 CM/img66.jpg"
                       alt="Third slide"
                       />
                   </Carousel.Item>
@@ -174,16 +211,156 @@ function Products() {
           <Row className='gx-0'>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
-                <video autoPlay loop muted>
-                  <source src= 'assets/videos/Sample-Background-Video.mp4' type='video/mp4' />
-                </video>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/paradise 124/img516.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/paradise 124/img78.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={5000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/paradise 124/img320.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </Col>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Glazed</h1>A glazed tile is a tile with glaze. It is made by putting chemical glazes on the tile, let it dry, and putting it into a kiln (an oven that heats up to high temperatures). The kiln heats to about 2000 degrees turning the chemical glaze to colors. It is often framed and sold. This is a popular form of art.<br /><br /><b>Find out More</b></p>
+                  <p><h1>Mosaics</h1>Nothing spells ‘royalty’ like mosaics. The gold shimmer and the silver shine are perfect ornaments for your luxurious havens. These dust and water-resistant mosaics add opulence to the walls they sit on, radically transforming the space.<br /><br /><b>Make Enquiry</b></p>
                 </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/12  X 48 SMALL KITKAT/img9.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/12 X 93 MM SPECIAL MOSAIC/img21.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/12 X 93 MM SPECIAL MOSAIC/img125.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/FISH SCALE 83 X 94 MM SPECIAL MOSAIC/img13.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Mosaic/FISH SCALE 83 X 94 MM SPECIAL MOSAIC/img13.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+          </Row>
+          <Row className='gx-0'>
+            <Col xs={12} md={8}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={4200}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Carpet/PARADISE EUROPE Floor All Tiles Catalogue 13/img25.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4200}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Carpet/PARADISE EUROPE Floor All Tiles Catalogue 13/img186.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4200}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Carpet/PARADISE EUROPE Floor All Tiles Catalogue 13/img194.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4200}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Carpet/PARADISE EUROPE Floor All Tiles Catalogue 13/img94.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Carpet</h1>Infused with modern style, it features a bold large-scale pattern of intersecting lines and curves in a neutral color palette of rich taupes, grays and blues to highlight the boldness of the pattern.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className='gx-0'>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Terrezo</h1>A blend of quartz, marble, glass, and other materials, these sleek Terrazzo tiles have a sand-like design with a sleek texture that is sure to perfectly blend into any space.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade={true} >
+                  <Carousel.Item interval={3300}>
+                      <img
+                      className="d-block w-100"
+                      src= "assets/product/images/Terrazo/VENICE TERRAZO/img5.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3300}>
+                      <img
+                      className="d-block w-100"
+                      src= "assets/product/images/Terrazo/VENICE TERRAZO/img15.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3300}>
+                      <img
+                      className="d-block w-100"
+                      src= "assets/product/images/Terrazo/VENICE TERRAZO/img4.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </Col>
             <Col xs={12} md={4}>
@@ -192,14 +369,28 @@ function Products() {
                   <Carousel.Item interval={1500}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c7.png"
+                      src= "assets/product/images/Terrazo/LP Terrezo 600 x 1200/img45.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
                   <Carousel.Item interval={1500}>
                       <img
                       className="d-block w-100"
-                      src= "/assets/product/images/Creatives/c8.png"
+                      src= "assets/product/images/Terrazo/LP Terrezo 600 x 1200/img46.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={1500}>
+                      <img
+                      className="d-block w-100"
+                      src= "assets/product/images/Terrazo/paradise 160/img40.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={1500}>
+                      <img
+                      className="d-block w-100"
+                      src= "assets/product/images/Terrazo/paradise 160/img68.jpg"
                       alt="Second slide"
                       />
                   </Carousel.Item>
@@ -207,7 +398,276 @@ function Products() {
               </div>
             </Col>
           </Row>
-          <div className="about-slide-heading-section-op2"><span>Couldnt Find what you want? Browse Our Catelogs</span></div>
+          <Row className='gx-0'>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img59.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img62.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img61.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img68.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={3500}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/23 X 27 CM HEXA SERIES-2/img76.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3500}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/23 X 27 CM HEXA SERIES-2/img93.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3500}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img67.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3500}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Jungle-Series/Bali Stone _ Livorno Series 20 x 20/img66.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Jungle Series</h1>A collection that takes it's inspiration from botanic influences. The tiles have random patterns that can be put together like a puzzle. The unique theme make this a statement collection that is the perfect match for a designer.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className='gx-0'>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Spanish</h1>Be it rooted, beige colors of the splashy wildness of the carnival, these tiles inspired by the aesthetics of Spain are sure to be a fiesta-worthy addition to your abode. Known originally as the Majolica, these tiles have a distinct, white glaze that adds a pristine look to the space.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={4700}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Crema Avorio Series 45 x 90/img7.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4700}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Aura Series 45 x 90/img10.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4700}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Lavik Series 32 x 62.5 _ 45 x 90/img5.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={4700}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Sassi Series 45 x 90/img19.jpg"
+                      alt="Fourth slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Musa Series 33.15 x 33.15/img5.jpg"
+                      alt="Fourth slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Musa Series 33.15 x 33.15/img18.jpg"
+                      alt="Fourth slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Aura Series 45 x 90/img4.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Aura Series 45 x 90/img5.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={3000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Spanish-Italian/Aura Series 45 x 90/img6.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+          </Row>
+          <Row className='gx-0'>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Italian</h1>The aesthetics of Europe is a specialty at Paradise and our next stop is vibrant Italy. With a rich history and a richer art history, these Roman-inspired tiles add not just royalty but genuine greatness to your architectural marvel.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Solid-Colors/paradise stile studio 89/img19.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Solid-Colors/paradise stile studio 89/img38.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Solid-Colors/paradise stile studio 89/img44.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Solid-Colors/paradise stile studio 89/img27.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Solid-Colors/paradise stile studio 89/img33.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Solid Colors</h1>Minimalism at its finest, these solid colors are for the ones who envision sophistication in every edge. Make it an even design or mix it up with some solids, we are sure it would add personality to your sanctuary.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className='gx-0'>
+            <Col xs={12} md={8}>
+              <div className='product-grid-element'>
+                <Carousel controls={false} indicators={false} fade>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Bigger-Size/paradise 132/img133.jpg"
+                      alt="First slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Bigger-Size/paradise 132/img127.jpg"
+                      alt="Second slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Bigger-Size/paradise 132/img97.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Bigger-Size/paradise 132/img60.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                  <Carousel.Item interval={2000}>
+                      <img
+                      className="d-block w-100"
+                      src= "/assets/product/images/Bigger-Size/paradise 132/img45.jpg"
+                      alt="Third slide"
+                      />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='product-grid-element'>
+                <div className='product-text-element'>
+                  <p><h1>Bigger Size</h1>Big tiles or Extra-large tiles provide a smoother and sleeker floor finish while making your home or office look more spacious. Sizes such as 1000x2000 | 1200x1800 | 1200x1200 | 800x1600 | 290x1800 mm and imparts a classy look to space.<br /><br /><b>Make Enquiry</b></p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+{/* *********************************************** */}
+          {/* <div className="about-slide-heading-section-op2"><span>Couldnt Find what you want? Browse Our Catelogs</span></div>
           <Row className='gx-0'>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
@@ -277,7 +737,7 @@ function Products() {
                 </div>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     </div>

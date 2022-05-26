@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 function Video() {
   return (
     <div class="background-video">
-      <video autoPlay loop muted>
+      <video autoPlay loop muted playsinline autobuffer preload="auto" poster="/assets/images/landing-loader.png">
         <source src = "/assets/videos/Paradise-Studio-Video-1.mp4" type='video/mp4' />
       </video>
       <div class="text-in-video">

@@ -18,7 +18,11 @@ function Projects() {
                                         Rustic Meandering
                                     </div>
                                     <div className='project-details'>
-                                        Rustic design is all about bringing the outdoors in, but without the biting bugs and the risks of inclement weather. Think raw, reclaimed timbers, exposed beams and unfinished stones, popular with a lot of hipster cafes and restaurants of today. There’s no reason why you can’t recreate this interior design style at home.<br></br><br></br><br></br>
+                                        A wooden cabin amidst nature is a fantasy arising from the need 
+                                        for peace and serenity. A rustic interior space brings the same calm 
+                                        to your urban abode. The timber finishes, exposed beams, and natural stones 
+                                        only add to the Indic feel of your architectural haven.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -31,8 +35,12 @@ function Projects() {
                                         Oriental Mindset
                                     </div>
                                     <div className='project-details'>
-                                    Asian-style interiors are more often than not a fusion of styles, with Japanese and Chinese expression leading the way of popular interior design themes.
-                                    Japanese design is minimalist with colours from the natural world informing the colour palette while Chinese design is more opulent with richer, lavish colours are used.<br></br><br></br><br></br>
+                                        The flavors of the east encapsulate the design in this 
+                                        orient-inspired decor. The disciplined minimalism of the 
+                                        Japanese is brushed in the bold and beautiful black and white 
+                                        color palette. Less is more and this decor spells ‘lavish’ 
+                                        with as little effort as possible.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -42,10 +50,15 @@ function Projects() {
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Coastal Randevu
+                                        Coastal Rendezvous
                                     </div>
                                     <div className='project-details'>
-                                        Coastal interior design notes feature light, bright, and airy environs often dreamed up in vibrant neutrals to soak up the suns rays. Common coastal color palettes include shades of light blues and greens inspired by the ocean along with an array of creams and neutrals for a relaxed yet elegant finish.<br></br><br></br><br></br>
+                                        The Goan chill oozes from this coastal-inspired 
+                                        wall and floor tiles. The blue represents the ocean 
+                                        in the summer, looking hip at any time of day. The 
+                                        white represents the lush sand of the beaches. One 
+                                        can picture the hammock and Pina Coladas already.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -60,7 +73,12 @@ function Projects() {
                                         Traditional Condo
                                     </div>
                                     <div className='project-details'>
-                                        When it comes to interior design styles, almost everything is rooted in traditional interior design ideas, and for good reason. That said, you can make traditional style interior design all your own by incorporating pieces that speak to your personality and lifestyle while making a statement.<br></br><br></br><br></br>
+                                        Nothing beats the classics and for good reason. 
+                                        The traditional condo with its royal mosaics and 
+                                        sophisticated brown look radiates elegance and luxury. 
+                                        One can mix it up and add a dash of one's personality with 
+                                        our personalized options.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -70,10 +88,13 @@ function Projects() {
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
-                                        Art Deco Delight
+                                        Artistic Vigor
                                     </div>
                                     <div className='project-details'>
-                                        Features of this interior design style include geometric shapes and graphic patterns, timber furnishings, minimalistic steel furnishing and natural lighting layered with fluroscent lamp for evening lighting. It incorporates being bold and artistic expression with fresh touches.<br></br><br></br><br></br>
+                                        Boldness and precision drip from these perfectly geometrical 
+                                        shapes. With graphic patterns, timber, and minimalistic steel 
+                                        furnishings, this style emulates personal art studios of Italy.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
@@ -86,7 +107,12 @@ function Projects() {
                                         Bohemian Escape
                                     </div>
                                     <div className='project-details'>
-                                    One of the most timeless and endlessly popular interior design styles out there, bohemian décor represents a care and fuss-free freedom that’s unquestionably heady and intoxicating. Boasting a globally inspired comfortable mix of exotic finds and vintage and antique furnishings.<br></br><br></br><br></br>
+                                        A timeless and old-school style of decor, the Bohemian 
+                                        decor gives one’s haven the classic touch it requires. 
+                                        Exotic yet rooted, global yet rustic, this mix of art 
+                                        styles culminates into an aesthetic collage that somehow 
+                                        blends to form a personality of its own.
+                                        <br></br><br></br><br></br>
                                     </div>
                                 </div>
                             </Col>
