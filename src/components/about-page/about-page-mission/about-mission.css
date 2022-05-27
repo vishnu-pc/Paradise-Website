@@ -1,0 +1,50 @@
+.about-mission-element{
+    margin-top: 10vh;
+}
+
+.about-mission-image {
+    /* height: 100%; */
+    width: 60%;
+    margin: auto;
+    object-fit: cover;
+    position: relative;
+}
+
+/* .about-mission-image img{
+    border-radius: 3vh;
+} */
+
+.about-mission-image .about-mission-statement{
+    font-family: 'Poppins';
+    font-size: 5.5vh;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--filler-color-1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    border-radius: 3vh;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.about-mission-statement-highlight{
+    color: goldenrod;
+    display: inline-block;
+}
+
+.about-mission-statement hr{
+    height: 0.1vh;
+}
+
+.about-mission-vison{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    font-size: 2.3vh;
+}

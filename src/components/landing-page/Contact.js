@@ -28,7 +28,6 @@ function Contact() {
                         <Col xs={12} md={4} className="mt-5 mb-2">
                             <div className='contact-form'>
                                 <h3 className="get-in-touch">Lets get in touch</h3>
-                                <br></br>
                                 <Form>
                                     <Row className="mb-3">
                                         <Col>
@@ -48,7 +47,7 @@ function Contact() {
                                     </Row>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                         <Form.Label>Message</Form.Label>
-                                        <Form.Control as="textarea" rows={3} placeholder="Enter a message here" />
+                                        <Form.Control as="textarea" rows={3} placeholder="Enter a message here" id="small-form-control-box-bg" />
                                     </Form.Group>
                                     {/* <Row className="mb-3">
                                         <Col xs='3'> 
