@@ -50,7 +50,6 @@ function Testimonials2() {
                     </Carousel.Item>
                     </Carousel>
                 </div>
-                
             </div>
         );
 }

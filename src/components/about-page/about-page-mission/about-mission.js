@@ -4,7 +4,7 @@ function AboutMission() {
     return ( 
         <div className = "about-mission-element">
            <div className='about-mission-image'>
-            <img src= '/assets/images/about-mission.jpg' alt="About mission" id="about-page-image-1"/>
+            <img src= '/assets/images/about-mission-1.jpg' alt="About mission" id="about-page-image-1"/>
             <div className='about-mission-statement'>For the ones with <div className='about-mission-statement-highlight'>Elegant Taste</div><hr /></div>
           </div>
           <div className='about-mission-vison'>

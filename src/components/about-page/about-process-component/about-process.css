@@ -1,13 +1,16 @@
 .about-process-component{
     width: 100%;
-    background-color: var(--filler-color-2);
-    padding-top: 3%;
-    padding-bottom: 3%;
+    background-color: var(--filler-color-1);
+    padding-top: 2%;
+    padding-bottom: 2%;
     position: relative;
 }
 .about-process-component .about-process-element {
     width: 80%;
     margin: auto;
+    background-color: var(--primary-color);
+    padding: 5vh;
+    border-radius: 5vh;
 }
 
 .about-process-node-grid img {
@@ -60,7 +63,7 @@
     text-align: center;
     font-size: 1.5vh;
     font-weight: 400;
-    color: var(--filler-color-1);
+    color: var(--filler-color-2);
 }
 
 .about-process-node-text-heading {
@@ -74,5 +77,20 @@
     margin-bottom: 0%;
     padding-bottom: 2%;
     text-align: left;
-    color: var(--filler-color-1);
+    color: var(--filler-color-2);
+}
+
+@media only screen and (max-width: 800px) {
+    .about-process-node-grid img{
+        height: 20vh;
+        width: 20vh;
+    }
+
+    .about-process-element .about-slide-heading-section-op2 span{
+        font-size: 7vw
+    }
+
+    .about-process-node-text{
+        padding-bottom: 10%;
+    }
 }

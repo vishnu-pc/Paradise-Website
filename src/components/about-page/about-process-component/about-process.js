@@ -95,9 +95,9 @@ function AboutProcess() {
                             </Col>
                         </Row>
                     </div>
-                    {/* <LineTo from="about-process-node-1" to="about-process-node-2" borderStyle='dashed' borderColor='var(--secondary-color)' borderWidth='0.4vh' delay='0'/>
-                    <LineTo from="about-process-node-2" to="about-process-node-3" borderStyle='dashed' borderColor='var(--secondary-color)' borderWidth='0.4vh' delay='0'/>
-                    <LineTo from="about-process-node-3" to="about-process-node-4" borderStyle='dashed' borderColor='var(--secondary-color)' borderWidth='0.4vh' delay='0'/> */}
+                    <LineTo from="about-process-node-1" to="about-process-node-2" borderStyle='dashed' borderColor='var(--primary-color)' borderWidth='0.4vh' delay='0'/>
+                    <LineTo from="about-process-node-2" to="about-process-node-3" borderStyle='dashed' borderColor='var(--primary-color)' borderWidth='0.4vh' delay='0'/>
+                    <LineTo from="about-process-node-3" to="about-process-node-4" borderStyle='dashed' borderColor='var(--primary-color)' borderWidth='0.4vh' delay='0'/>
                 </Container>
             </div>
         </div>

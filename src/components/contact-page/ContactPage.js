@@ -1,23 +1,12 @@
-import Header from '../Header'
+import Header2 from '../Header2';
 import "./ContactPage.css";
+import Contact from '../landing-page/Contact';
 
 function ContactPage() {
   return (
     <>
-        <Header />
-        <div class="bgimg">
-          <div class="topleft">
-            <p></p>
-          </div>
-          <div class="middle-section">
-            <h1>COMING SOON</h1>
-            <hr />
-            <p>Paradise Stile Studio</p>
-          </div>
-          <div class="bottomleft">
-            <p></p>
-          </div>
-        </div>
+        <Header2 />
+        <Contact />
     </>
   );
 }

@@ -13,6 +13,7 @@
   /* padding-bottom: 1%; */
   /* padding: 5%; */
   /* max-height: 100vh; */
+  margin-bottom: -3%;
 }
 
 .get-in-touch {
@@ -29,19 +30,20 @@
 
 .contact button{
   color: var(--filler-color-1);
-  background-color: var(--tertiary-color);
+  background-color: var(--filler-color-8);
   border: 0;
   font-size: 2.3vh;
   margin-top: 1vh;
+  transition: 1s;
 }
 
 .contact button:hover{
-  background-color: var(--tertiary-color);
+  background-color: var(--filler-color-9);
   /* transition: 0.5s; */
 }
 
 .contact button:focus{
-  background-color: var(--tertiary-color);
+  background-color: var(--filler-color-8);
   /* transition: 0.5s; */
 }
 
@@ -59,7 +61,7 @@
   font-size: 2.3vh;
   color: var(--filler-color-2);
   font-weight: bold;
-  background-color: var(--primary-color);
+  background-color: var(--filler-color-7);
   padding: 5%;
   border-radius: 1%;
 }
@@ -126,8 +128,8 @@
 
 .site-footer
 {
-  background-color: var(--primary-color);
-  margin: 0;
+  background-color: var(--filler-color-1);
+  /* margin-top: -1%; */
   padding: 0;
   /* padding:45px 0 20px; */
   /* font-size:15px; */

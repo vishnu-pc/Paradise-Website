@@ -15,6 +15,7 @@ function App() {
           <Route path='/products' element={<><ProductsPage /></>} />
           <Route path='/about' element={<><AboutPage /></>} />
           <Route path='/contact' element={<><ContactPage /></>} />
+          <Route path='/atliere-solutions' element={<><ContactPage /></>} />
           <Route path='/catalogue' element={<><ContactPage /></>} />
           <Route path='/comingsoon' element={<><ContactPage /></>} />
         </Routes>

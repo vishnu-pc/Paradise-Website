@@ -86,7 +86,8 @@ function Contact() {
                 </Container>
             </div>
             <footer class="site-footer">
-            <hr style={{color:'goldenrod', width:'0', border: '0px solid gold'}}/>
+            {/* <hr style={{color:'var(--secondary-color)', width:'90%', margin:'auto', border: '0px solid'}}/> */}
+            <br />
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 col-md-6" >
@@ -128,7 +129,7 @@ function Contact() {
                         </ul>
                     </div>
                     </div>
-                    <hr />
+                    <hr style={{color:'var(--primary-color)', width:'100%', border: '0px solid'}}/>
                 </div>
                 <div class="container">
                     <div class="row">
