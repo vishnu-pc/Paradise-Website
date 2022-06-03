@@ -1,0 +1,12 @@
+.development-team {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.development-team img {
+    width: 80%;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    object-fit: contain;
+}

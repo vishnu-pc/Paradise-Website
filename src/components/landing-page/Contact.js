@@ -27,7 +27,7 @@ function Contact() {
                         </Col>
                         <Col xs={12} md={4} className="mt-5 mb-2">
                             <div className='contact-form'>
-                                <h3 className="get-in-touch">Lets get in touch</h3>
+                                {/* <h3 className="get-in-touch">Lets get in touch</h3> */}
                                 <Form>
                                     <Row className="mb-3">
                                         <Col>
@@ -87,8 +87,10 @@ function Contact() {
             </div>
             <footer class="site-footer">
             {/* <hr style={{color:'var(--secondary-color)', width:'90%', margin:'auto', border: '0px solid'}}/> */}
-            <br />
+            {/* <br /> */}
                 <div class="container">
+                    {/* <hr className='large-hr' style={{color:'var(--secondary-color)', width:'100%', height:'0.3vh', margin:'auto', border: '0px solid'}}/> */}
+                    <br />
                     <div class="row">
                     <div class="col-sm-12 col-md-6" >
                         <h6>Paradise Stile Studio</h6>
@@ -109,8 +111,10 @@ function Contact() {
                         <h6>Contact</h6>
                         <ul class="footer-links">
                             <li>Telephone: 080 49597762</li>
-                            <li>Telephone: +91 9880064325</li>
-                            <li>Email: paradisestilestudio@gmail.com</li><br />
+                            <li>Telephone: +91 9739236663</li>
+                            <li>Telephone: +91 7259678332</li>
+                            <li>Email: paradisestilestudio@gmail.com</li>
+                            <br />
                             <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>
@@ -129,12 +133,12 @@ function Contact() {
                         </ul>
                     </div>
                     </div>
-                    <hr style={{color:'var(--primary-color)', width:'100%', border: '0px solid'}}/>
+                    <hr style={{color:'var(--primary-color)', width:'100%', height:'0.1vh', border: '0px solid'}}/>
                 </div>
                 <div class="container">
                     <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/comingsoon">Atliere Solutions</a></div>
+                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/developers">Atliere Solutions</a></div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">

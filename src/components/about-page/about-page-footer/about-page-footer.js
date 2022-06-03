@@ -4,8 +4,10 @@ function AboutFooter() {
     return ( 
         <div className = "about-footer-element">
             <footer class="site-footer">
-                <hr style={{color:'goldenrod', width:'0', border: '0px solid gold'}}/>
+                {/* <hr style={{color:'goldenrod', width:'0', border: '0px solid gold'}}/> */}
                 <div class="container">
+                    {/* <hr style={{color:'var(--secondary-color)', width:'100%', height:'0.3vh', margin:'auto', border: '0px solid'}}/> */}
+                    <br />
                     <div class="row">
                     <div class="col-sm-12 col-md-6" >
                         <h6>Paradise Stile Studio</h6>
@@ -27,9 +29,11 @@ function AboutFooter() {
                         <h6>Contact</h6>
                         <ul class="footer-links">
                             <li>Telephone: 080 49597762</li>
-                            <li>Telephone: +91 9880064325</li>
-                            {/* <li>Email: paradisestilestudio@gmail.com</li><br /> */}
-                            {/* <li>Hours:</li>
+                            <li>Telephone: +91 9739236663</li>
+                            <li>Telephone: +91 7259678332</li>
+                            {/* <li>Email: paradisestilestudio@gmail.com</li> */}
+                            {/* <br />
+                            <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>
                             <li>Saturday: 10AM - 8PM</li> */}
@@ -47,12 +51,12 @@ function AboutFooter() {
                         </ul>
                     </div>
                     </div>
-                    <hr />
+                    <hr style={{color:'var(--primary-color)', width:'100%', height:'0.1vh', border: '0px solid'}}/>
                 </div>
                 <div class="container">
                     <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/comingsoon">Atliere Solutions</a></div>
+                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/developers">Atliere Solutions</a></div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">

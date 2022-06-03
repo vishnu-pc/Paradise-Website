@@ -1,7 +1,7 @@
 :root {
-    --primary-color: rgba(255, 171, 157, 0.5);
-    --secondary-color: #ffab9d ;
-    --tertiary-color: rgba(172, 124, 63, 1);
+    --primary-color: rgba(116, 194, 67, 0.5);
+    --secondary-color: rgba(116, 194, 67, 1);
+    --tertiary-color: rgba(143, 108, 56, 1);
     --filler-color-1: white;
     --filler-color-2: black;
     --filler-color-3: grey;
@@ -9,8 +9,8 @@
     --filler-color-5: rgba(116, 194, 67, 0.5);
     --filler-color-6: rgba(116, 194, 67, 1);
     --filler-color-7: rgb(248, 248, 248);
-    --filler-color-8: rgba(176, 0, 0, 1);
-    --filler-color-9: rgb(176, 0, 0, 0.7);
+    --filler-color-8: rgb(212, 0, 0);
+    --filler-color-9: rgb(176, 0, 0, 1);
     --background-filler-1: rgba(0, 0, 0, 0.7);
 }
 

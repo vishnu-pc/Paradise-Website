@@ -8,8 +8,9 @@
 .about-process-component .about-process-element {
     width: 80%;
     margin: auto;
-    background-color: var(--primary-color);
+    background-color: var(--filler-color-7);
     padding: 5vh;
+    /* border: 0.3vh solid var(--secondary-color); */
     border-radius: 5vh;
 }
 

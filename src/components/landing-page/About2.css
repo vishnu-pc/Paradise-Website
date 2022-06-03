@@ -139,7 +139,7 @@
     border-radius: 5vh;
     /* background: rgba(255, 171, 157, 0.5); */
     background: var(--filler-color-1);
-    border: 1vh solid var(--secondary-color);
+    border: 0.5vh solid var(--primary-color);
     /* 90px, 90px */
     width: 10vh; 
     height: 10vh;
@@ -176,11 +176,11 @@
 .about-slide-heading-section-op2:hover:before {
     /* width: 100%; */
     /* background: #ffab9d; */
-    background: var(--secondary-color);
-    /* -webkit-transform: scale(1.2);
+    background: var(--primary-color);
+    border: 0vh solid var(--secondary-color);
+    -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         transform: scale(1.2);
-    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 }
 
 /* .products-section .cta:hover svg {

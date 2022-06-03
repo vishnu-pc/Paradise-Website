@@ -27,6 +27,7 @@ yarn-error.log*
 *.jpg
 *.jpeg
 *.png
+*.webp
 
 # videos
 *.mp4
