@@ -14,7 +14,7 @@ function Video() {
         <p>Stile studio</p> */}
         <img
               alt="Paradise Stile Studio"
-              src= 'assets/images/paradise-transparent.png'
+              src= 'assets/images/px-paradise-transparent.webp'
               width="300"
               height="300"
               // className="d-inline-block align-top"

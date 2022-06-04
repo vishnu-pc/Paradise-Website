@@ -12,7 +12,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= '/assets/images/testimonial-1-3.jpg'
+                        src= '/assets/images/px-testimonial-1-3.webp'
                         alt="First slide"
                         />
                         
@@ -25,7 +25,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= '/assets/images/testimonial-2-1.jpg'
+                        src= '/assets/images/px-testimonial-2-1.webp'
                         alt="Second slide"
                         />
 
@@ -38,7 +38,7 @@ function Testimonials2() {
                     <Carousel.Item interval={1500}>
                         <img
                         className="d-block w-100"
-                        src= '/assets/images/testimonial-3-1.jpg'
+                        src= '/assets/images/px-testimonial-3-1.webp'
                         alt="Third slide"
                         />
 

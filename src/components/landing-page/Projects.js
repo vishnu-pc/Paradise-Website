@@ -11,7 +11,7 @@ function Projects() {
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-1-1.jpg' alt="Category 1"/>
+                                    <img src= '/assets/images/px-recent-projects-1-1.webp' alt="Category 1"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -28,7 +28,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-2-1.jpg' alt="Category 2"/>
+                                    <img src= '/assets/images/px-recent-projects-2-1.webp' alt="Category 2"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -46,7 +46,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-3-1.jpg' alt="Category 3"/>
+                                    <img src= '/assets/images/px-recent-projects-3-1.webp' alt="Category 3"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -66,7 +66,7 @@ function Projects() {
                         <Row className='recent-project-row'>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-4-1.jpg' alt="Category 4"/>
+                                    <img src= '/assets/images/px-recent-projects-4-1.webp' alt="Category 4"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -84,7 +84,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-5-1.jpg' alt="Category 5"/>
+                                    <img src= '/assets/images/px-recent-projects-5-1.webp' alt="Category 5"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
@@ -100,7 +100,7 @@ function Projects() {
                             </Col>
                             <Col xs={12} md={4} className='recent-project-col'>
                                 <div className='recent-project-image-container'>
-                                    <img src= '/assets/images/recent-projects-6-1.jpg' alt="Category 6"/>
+                                    <img src= '/assets/images/px-recent-projects-6-1.webp' alt="Category 6"/>
                                 </div>
                                 <div className='recent-project-text'>
                                     <div className='project-name'>
