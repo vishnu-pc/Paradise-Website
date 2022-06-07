@@ -18,7 +18,7 @@ function Header2() {
           >
             <img
               alt=""
-              src= '/assets/images/paradise-transparent.png'
+              src= '/assets/images/paradise-transparent-green.png'
               width= "100"
               height= "100"
               className="d-inline-block align-top"

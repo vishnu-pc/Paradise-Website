@@ -39,7 +39,7 @@
     object-fit: cover;
 }
 
-.product-grid-element .carousel img{
+.product-grid-element img{
     width: 100%; 
     height: 50vh;
     margin: auto;
@@ -71,7 +71,8 @@
     height: 50vh;
     width: 100%;
     background-color: white;
-    border: 3px solid var(--primary-color);
+    border: 0.2vw solid var(--secondary-color);
+    /* border: 3px solid var(--secondary-color); */
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
@@ -82,6 +83,16 @@
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     text-align: justify;
     font-size: 2vh;
+}
+
+.product-text-element a{
+    text-decoration: none;
+    color: var(--filler-color-2);
+}
+
+.product-text-element a:hover{
+    text-decoration: none;
+    color: var(--filler-color-2);
 }
 
 .product-text-element::-webkit-scrollbar { /* WebKit */

@@ -3,6 +3,7 @@ import {Form, Button} from 'react-bootstrap';
 import './Contact.css'
 
 function Contact() {
+
     return (
         <div className='bottom-setction-landing'>
             <div className='contact'>
@@ -22,7 +23,7 @@ function Contact() {
                         <Col xs={12} md={8} className="mt-5 mb-2">
                             <div className="google-map-code">
                                 {/* To make maps B/W use in filter: grayscale(100%) invert(100%) contrast(100%) */}
-                                <iframe style={{border:'0', filter: '' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0233955170493!2d77.63467041378985!3d12.970354718417413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a74acc0e49%3A0xb0f0b496d272aee0!2sParadise%20Stile%20Studio!5e0!3m2!1sen!2sin!4v1649324575318!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+                                <iframe style={{border:'0', filter: '' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0233955170493!2d77.63467041378985!3d12.970354718417413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a74acc0e49%3A0xb0f0b496d272aee0!2sParadise%20Stile%20Studio!5e0!3m2!1sen!2sin!4v1649324575318!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" frameborder="0" aria-hidden="false" tabindex="0" title='location-in-maps'></iframe>
                             </div>
                         </Col>
                         <Col xs={12} md={4} className="mt-5 mb-2">
@@ -32,7 +33,7 @@ function Contact() {
                                     <Row className="mb-3">
                                         <Col>
                                         <Form.Label >Name</Form.Label>
-                                        <Form.Control placeholder="Full Name" size="md" id="small-form-control-box"/>
+                                        <Form.Control placeholder="Full Name" size="md" id="small-form-control-box" />
                                         </Col>
                                         <Col>
                                         <Form.Label>Telephone</Form.Label>
@@ -114,7 +115,7 @@ function Contact() {
                             <li>Telephone: +91 9739236663</li>
                             <li>Telephone: +91 7259678332</li>
                             <li>Email: paradisestilestudio@gmail.com</li>
-                            <br />
+                            <li><br></br></li>
                             <li>Hours:</li>
                             <li>Monday: 10AM - 8PM</li>
                             <li>...</li>
@@ -133,7 +134,7 @@ function Contact() {
                         </ul>
                     </div>
                     </div>
-                    <hr style={{color:'var(--primary-color)', width:'100%', height:'0.1vh', border: '0px solid'}}/>
+                    <hr style={{color:'var(--secondary-color)', width:'100%', height:'0.2vh', border: '0px solid'}}/>
                 </div>
                 <div class="container">
                     <div class="row">

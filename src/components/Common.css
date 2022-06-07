@@ -4,7 +4,8 @@
     --tertiary-color: rgba(143, 108, 56, 1);
     --filler-color-1: white;
     --filler-color-2: black;
-    --filler-color-3: grey;
+    /* --filler-color-3: grey; */
+    --filler-color-3: #33353d;
     --filler-color-4: #33353d;
     --filler-color-5: rgba(116, 194, 67, 0.5);
     --filler-color-6: rgba(116, 194, 67, 1);

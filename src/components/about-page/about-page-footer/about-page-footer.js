@@ -51,7 +51,7 @@ function AboutFooter() {
                         </ul>
                     </div>
                     </div>
-                    <hr style={{color:'var(--primary-color)', width:'100%', height:'0.1vh', border: '0px solid'}}/>
+                    <hr style={{color:'var(--secondary-color)', width:'100%', height:'0.2vh', border: '0px solid'}}/>
                 </div>
                 <div class="container">
                     <div class="row">

@@ -27,12 +27,16 @@ function Products() {
                   <Carousel.Item interval={3000}>
                       <img
                       className="d-block w-100"
-                      src= "assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg"
+                      srcset = "/assets/product/images/Hexagon/Pulpis-Series-20x24/img4-393.jpg  393w, /assets/product/images/Hexagon/Pulpis-Series-20x24/img4-786.jpg  786w, /assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg  1572w"
+                      sizes="(min-width: 774px) 100vh, 50vh"
+                      src= "/assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg"
                       alt="First slide"
                       />
                   </Carousel.Item>
                   <Carousel.Item interval={3000}>
                       <img
+                      // srcset = "/assets/product/images/Hexagon/Pulpis-Series-20x24/img4-786.jpg  786w, /assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg  1572w"
+                      // sizes="(min-width: 774px) 100vh, 50vh"
                       className="d-block w-100"
                       src= "assets/product/images/Hexagon/Pulpis-Series-20x24/img14.jpg"
                       alt="Second slide"
@@ -40,6 +44,8 @@ function Products() {
                   </Carousel.Item>
                   <Carousel.Item interval={3000}>
                       <img
+                      // srcset = "/assets/product/images/Hexagon/Pulpis-Series-20x24/img4-786.jpg  786w, /assets/product/images/Hexagon/Pulpis-Series-20x24/img4.jpg  1572w"
+                      // sizes="(min-width: 774px) 100vh, 50vh"
                       className="d-block w-100"
                       src= "assets/product/images/Hexagon/4c91e7b59cc6efa3531d1767305524af.jpg"
                       alt="Third slide"
@@ -51,7 +57,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Hexagon</h1>The emerald-like hexagons fit neatly on the walls and floors giving a regal touch to any space it adorns. They can be bold with a singular color palette or a splash of artistic madness, the diversity in the range is unparalleled.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Hexagon</h1>The emerald-like hexagons fit neatly on the walls and floors giving a regal touch to any space it adorns. They can be bold with a singular color palette or a splash of artistic madness, the diversity in the range is unparalleled.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -87,15 +93,12 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Printed</h1>Be it personified mindfulness tiles such as the Mandala or a customized design of your choice, printed tiles give a whole new definition for aesthetic. The intricate designs when installed together transform your space into a visual spectacle, telling your story to the world.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Printed</h1>Be it personified mindfulness tiles such as the Mandala or a customized design of your choice, printed tiles give a whole new definition for aesthetic. The intricate designs when installed together transform your space into a visual spectacle, telling your story to the world.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
-                {/* <video autoPlay loop muted>
-                  <source src = "/assets/product/videos/airpods.mp4" type='video/mp4' />
-                </video> */}
                 <Carousel controls={false} indicators={false} fade>
                   <Carousel.Item interval={5000}>
                       <img
@@ -160,7 +163,7 @@ function Products() {
             <Col xs={12} md={6}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Wooden Finish</h1>A design that realizes our childhood desire for wooden treehouses, this wooden finish flooring brings adventure and nostalgia to the urban landscape.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Wooden Finish</h1>A design that realizes our childhood desire for wooden treehouses, this wooden finish flooring brings adventure and nostalgia to the urban landscape.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -169,7 +172,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Subway</h1>Inspired by the subways of New York, these pristine tiles radiate purity. Be it the clean white look or the Rothko-inspired multi-colored masterpiece, these Subway tiles are sure to Americanize your architecture.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Subway</h1>Inspired by the subways of New York, these pristine tiles radiate purity. Be it the clean white look or the Rothko-inspired multi-colored masterpiece, these Subway tiles are sure to Americanize your architecture.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -239,7 +242,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Mosaics</h1>Nothing spells ‘royalty’ like mosaics. The gold shimmer and the silver shine are perfect ornaments for your luxurious havens. These dust and water-resistant mosaics add opulence to the walls they sit on, radically transforming the space.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Mosaics</h1>Nothing spells ‘royalty’ like mosaics. The gold shimmer and the silver shine are perfect ornaments for your luxurious havens. These dust and water-resistant mosaics add opulence to the walls they sit on, radically transforming the space.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -323,7 +326,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Carpet</h1>Infused with modern style, it features a bold large-scale pattern of intersecting lines and curves in a neutral color palette of rich taupes, grays and blues to highlight the boldness of the pattern.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Carpet</h1>Infused with modern style, it features a bold large-scale pattern of intersecting lines and curves in a neutral color palette of rich taupes, grays and blues to highlight the boldness of the pattern.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -332,7 +335,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Terrezo</h1>A blend of quartz, marble, glass, and other materials, these sleek Terrazzo tiles have a sand-like design with a sleek texture that is sure to perfectly blend into any space.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Terazzo</h1>A blend of quartz, marble, glass, and other materials, these sleek Terrazzo tiles have a sand-like design with a sleek texture that is sure to perfectly blend into any space.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -470,7 +473,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Jungle Series</h1>A collection that takes it's inspiration from botanic influences. The tiles have random patterns that can be put together like a puzzle. The unique theme make this a statement collection that is the perfect match for a designer.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Jungle Series</h1>A collection that takes it's inspiration from botanic influences. The tiles have random patterns that can be put together like a puzzle. The unique theme make this a statement collection that is the perfect match for a designer.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -479,7 +482,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Spanish</h1>Be it rooted, beige colors of the splashy wildness of the carnival, these tiles inspired by the aesthetics of Spain are sure to be a fiesta-worthy addition to your abode. Known originally as the Majolica, these tiles have a distinct, white glaze that adds a pristine look to the space.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Spanish</h1>Be it rooted, beige colors of the splashy wildness of the carnival, these tiles inspired by the aesthetics of Spain are sure to be a fiesta-worthy addition to your abode. Known originally as the Majolica, these tiles have a distinct, white glaze that adds a pristine look to the space.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -563,7 +566,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Italian</h1>The aesthetics of Europe is a specialty at Paradise and our next stop is vibrant Italy. With a rich history and a richer art history, these Roman-inspired tiles add not just royalty but genuine greatness to your architectural marvel.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Italian</h1>The aesthetics of Europe is a specialty at Paradise and our next stop is vibrant Italy. With a rich history and a richer art history, these Roman-inspired tiles add not just royalty but genuine greatness to your architectural marvel.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -611,7 +614,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Solid Colors</h1>Minimalism at its finest, these solid colors are for the ones who envision sophistication in every edge. Make it an even design or mix it up with some solids, we are sure it would add personality to your sanctuary.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Solid Colors</h1>Minimalism at its finest, these solid colors are for the ones who envision sophistication in every edge. Make it an even design or mix it up with some solids, we are sure it would add personality to your sanctuary.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>
@@ -661,7 +664,7 @@ function Products() {
             <Col xs={12} md={4}>
               <div className='product-grid-element'>
                 <div className='product-text-element'>
-                  <p><h1>Bigger Size</h1>Big tiles or Extra-large tiles provide a smoother and sleeker floor finish while making your home or office look more spacious. Sizes such as 1000x2000 | 1200x1800 | 1200x1200 | 800x1600 | 290x1800 mm and imparts a classy look to space.<br /><br /><b>Make Enquiry</b></p>
+                  <p><h1>Bigger Size</h1>Big tiles or Extra-large tiles provide a smoother and sleeker floor finish while making your home or office look more spacious. Sizes such as 1000x2000 | 1200x1800 | 1200x1200 | 800x1600 | 290x1800 mm and imparts a classy look to space.<br /><br /><a href="/contact"><b>Make Enquiry</b></a></p>
                 </div>
               </div>
             </Col>

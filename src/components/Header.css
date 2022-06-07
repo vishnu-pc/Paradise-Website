@@ -33,7 +33,7 @@
   content: "";
   width: 0%;
   height: 10%;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   display: block;
   margin: auto;
   transition: 0.5s;

@@ -29,22 +29,22 @@
 }
 
 .contact button{
-  color: var(--filler-color-2);
-  background-color: var(--filler-color-1);
-  border: 0.3vh solid var(--filler-color-8);
+  color: var(--filler-color-1);
+  background-color: var(--filler-color-9);
+  border: 0.3vh solid var(--filler-color-9);
   font-size: 2.3vh;
   margin-top: 1vh;
   transition: 1s;
 }
 
 .contact button:hover{
-  border: 0.3vh solid var(--filler-color-9);
-  background-color: var(--filler-color-9);
+  border: 0.3vh solid var(--filler-color-8);
+  background-color: var(--filler-color-8);
   /* transition: 0.5s; */
 }
 
 .contact button:focus{
-  background-color: var(--filler-color-8);
+  background-color: var(--filler-color-9);
   /* transition: 0.5s; */
 }
 
@@ -73,15 +73,15 @@
 #small-form-control-box {
   height: 7vh;
   font-size: 2.3vh;
-  border: 0.3vh solid var(--filler-color-3);
-  /* background-color: var(--filler-color-7); */
+  /* border: 0.3vh solid var(--filler-color-3); */
+  background-color: var(--filler-color-7);
 }
 
 #small-form-control-box-bg {
   height: 14vh;
   font-size: 2.3vh;
-  border: 0.3vh solid var(--filler-color-3);
-  /* background-color: var(--filler-color-7); */
+  /* border: 0.3vh solid var(--filler-color-3); */
+  background-color: var(--filler-color-7);
 }
 
 /* .form-control {
@@ -185,7 +185,7 @@
 .footer-links li
 {
   display:block
-}
+} 
 .footer-links a
 {
   color: var(--filler-color-2)
@@ -213,6 +213,11 @@
   border-radius:100%;
   background-color: var(--filler-color-4);
 }
+.copyright-text a{
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
 .copyright-text
 {
   margin:0;

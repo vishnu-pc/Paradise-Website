@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 function Video() {
   return (
     <div class="background-video">
-      <video autoPlay loop muted playsinline autobuffer preload="auto" poster="/assets/images/landing-loader.webp">
+      <video autoPlay loop muted playsInline autobuffer preload="auto" poster="/assets/images/landing-loader.webp">
         <source src = "/assets/videos/Paradise-Studio-Video-3.webm" type='video/webm' />
         <source src = "/assets/videos/Paradise-Studio-Video-3.mp4" type='video/mp4' />
       </video>
@@ -14,7 +14,7 @@ function Video() {
         <p>Stile studio</p> */}
         <img
               alt="Paradise Stile Studio"
-              src= 'assets/images/px-paradise-transparent.webp'
+              src= 'assets/images/paradise-transparent-green.png'
               width="300"
               height="300"
               // className="d-inline-block align-top"
@@ -27,7 +27,7 @@ function Video() {
           </div>
           <div>
             <span class="m_scroll_arrows unu"></span>
-            {/* <span class="m_scroll_arrows doi"></span> */}
+            <span class="m_scroll_arrows doi"></span>
             {/* <span class="m_scroll_arrows trei"></span> */}
           </div>
         </div>

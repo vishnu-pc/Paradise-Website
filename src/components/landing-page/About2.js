@@ -10,7 +10,12 @@ function About2() {
       <Row className='gx-0'>
         <Col xs={12} md={6}>
           <div className='about-slide-image-section'>
-            <img src= '/assets/images/px-about-op2-2-1.webp' alt="Exclusive Living" id="about-page-image-1"/>
+            <img  
+              srcset = "/assets/images/px-about-op2-2-1_370.webp  370w, /assets/images/px-about-op2-2-1_617.webp  617w, /assets/images/px-about-op2-2-1_1233.webp  1233w, /assets/images/px-about-op2-2-1.webp 2466w"
+              sizes="(min-width: 774px) 100vh, 50vh"
+              src = '/assets/images/px-about-op2-2-1_1233.webp'
+              alt="Exclusive Living" id="about-page-image-1"
+            />
           </div>
         </Col>
         <Col xs={12} md={6}>
@@ -33,7 +38,11 @@ function About2() {
               to make your life beautifully simple.
               <br></br><br></br><br></br>
               <Button variant="primary" id='about-learn-more-button' href='/products'>
-                Learn More
+                Browse
+                <svg width="13px" height="10px" viewBox="0 0 13 10" color='white'>
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
               </Button>{' '}
             </p>
           </div>
@@ -56,7 +65,11 @@ function About2() {
               your disposal and offer a range of products.
               <br></br><br></br><br></br>
               <Button variant="primary" id='about-learn-more-button' href='/products'>
-                Learn More
+                Browse
+                <svg width="13px" height="10px" viewBox="0 0 13 10" color='white'>
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
               </Button>{' '}
             </p>
           </div>
@@ -94,7 +107,11 @@ function About2() {
               of <strong>luxurious interiors</strong> and exteriors.
               <br></br><br></br><br></br>
               <Button variant="primary" id='about-learn-more-button' href='/about'>
-                Learn More
+                Know the brand
+                <svg width="13px" height="10px" viewBox="0 0 13 10" color='white'>
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
               </Button>{' '}
             </p>
           </div>
