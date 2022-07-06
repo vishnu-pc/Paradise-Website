@@ -1,8 +1,50 @@
+import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import {Form, Button} from 'react-bootstrap';
 import './Contact.css'
+import { useState } from 'react';
 
-function Contact() {
+// SMTP Email Server Details 
+// https://stackoverflow.com/questions/55795125/how-to-send-email-from-my-react-web-application
+// service ID: service_wc7mxsm
+// template ID: template_l24vmlx
+// public key: 1NOLixANzW7XUgaN2
+
+function Contact()  {
+
+    const [inputs, setInputs] = useState({});
+
+    const handleChange = (event) => {
+        const name = event.target.name;
+        const value = event.target.value;
+        setInputs(values => ({...values, [name]: value}))
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const messageArray = (Object.values(inputs));
+        const personName = messageArray[0];
+        const personNumber = messageArray[1];
+        const personEmail = messageArray[2];
+        const personMessage = messageArray[3];
+        console.log(personName, personNumber, personEmail, personMessage);
+        alert("Thank you for your response, we will get back to you shortly.");
+
+        const templateId = 'template_l24vmlx';
+        const serviceId = 'service_hw6yfvl';
+        // sendFeedback(serviceId, templateId, {message_html: personMessage, from_name: personName, from_number: personNumber, reply_to: personEmail})
+    }
+
+    const sendFeedback = (serviceId, templateId, variables) => {
+        window.emailjs.send(
+        serviceId, templateId,
+        variables
+        ).then(res => {
+            console.log('Email successfully sent!')
+        })
+        // Handle errors here however you like, or use a React error boundary
+        .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
 
     return (
         <div className='bottom-setction-landing'>
@@ -29,26 +71,26 @@ function Contact() {
                         <Col xs={12} md={4} className="mt-5 mb-2">
                             <div className='contact-form'>
                                 {/* <h3 className="get-in-touch">Lets get in touch</h3> */}
-                                <Form>
+                                <Form onSubmit={handleSubmit}>
                                     <Row className="mb-3">
                                         <Col>
                                         <Form.Label >Name</Form.Label>
-                                        <Form.Control placeholder="Full Name" size="md" id="small-form-control-box" />
+                                        <Form.Control name="Name" value={inputs.name} onChange={handleChange} placeholder="Full Name" size="md" id="small-form-control-box" />
                                         </Col>
                                         <Col>
                                         <Form.Label>Telephone</Form.Label>
-                                        <Form.Control placeholder="Telephone No" size="md" id="small-form-control-box"/>
+                                        <Form.Control name="Telephone" value={inputs.telephone} onChange={handleChange} placeholder="Telephone No" size="md" id="small-form-control-box"/>
                                         </Col>
                                     </Row>
                                     <Row className="mb-3">
                                         <Col>
                                         <Form.Label>Email</Form.Label>
-                                        <Form.Control placeholder="Email ID" size="md" id="small-form-control-box"/>
+                                        <Form.Control name="EmailID" value={inputs.emailid} onChange={handleChange} placeholder="Email ID" size="md" id="small-form-control-box"/>
                                         </Col>
                                     </Row>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                         <Form.Label>Message</Form.Label>
-                                        <Form.Control as="textarea" rows={3} placeholder="Enter a message here" id="small-form-control-box-bg" />
+                                        <Form.Control name="Message" value={inputs.message} onChange={handleChange} as="textarea" rows={3} placeholder="Enter a message here" id="small-form-control-box-bg" />
                                     </Form.Group>
                                     {/* <Row className="mb-3">
                                         <Col xs='3'> 
@@ -75,7 +117,7 @@ function Contact() {
                                     </Row> */}
                                     <Row className="mb-3">
                                         <div className="d-grid gap-2">
-                                            <Button size="lg">
+                                            <Button size="lg" input type="submit" value="Submit">
                                                 Submit
                                             </Button>
                                         </div>
