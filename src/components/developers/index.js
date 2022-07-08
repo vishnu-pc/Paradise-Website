@@ -1,11 +1,11 @@
-import Header2 from '../Header2';
-import DevTeam from './dev-team/Dev-team';
+import Header from '../Header';
+import DevTeamV3 from './dev-team/Dev-team-v3';
 
 function Developers() {
   return (
     <>
-        <Header2 />
-        <DevTeam />
+        <Header />
+        <DevTeamV3 />
     </>
   );
 }

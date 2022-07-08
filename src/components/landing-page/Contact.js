@@ -32,6 +32,7 @@ function Contact()  {
 
         const templateId = 'template_l24vmlx';
         const serviceId = 'service_hw6yfvl';
+        // make sure to uncommit before deploying to production
         // sendFeedback(serviceId, templateId, {message_html: personMessage, from_name: personName, from_number: personNumber, reply_to: personEmail})
     }
 
