@@ -182,7 +182,7 @@ function Contact()  {
                 <div class="container">
                     <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="copyright-text">Copyright &copy; 2022 All rights reserved by Paradise style studio, Powered by <a href="/developers">Atliere Solutions</a></div>
+                        <div class="copyright-text">Copyright &copy; 2022 Paradise stile studio. All rights reserved. Powered by <a href="/developers">Atliere Solutions</a></div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">

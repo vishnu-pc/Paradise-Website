@@ -82,7 +82,7 @@
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     text-align: justify;
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
 .product-text-element a{

@@ -1,6 +1,7 @@
 import React from "react";
 import "./VideoBackground.css";
 import { Button } from 'react-bootstrap';
+import {Link} from 'react-scroll';
 
 function Video() {
   return (
@@ -22,7 +23,8 @@ function Video() {
         /><br></br>
         {/* <a href='/products'><Button variant="primary" id='browse-products-button'>View</Button>{' '}</a> */}
       </div>
-      <div class="mouse_scroll">
+      <Link activeClass="active" to="about-slide1" spy={true} smooth={true}>
+        <div class="mouse_scroll">
           <div class="mouse">
             <div class="wheel"></div>
           </div>
@@ -32,6 +34,7 @@ function Video() {
             {/* <span class="m_scroll_arrows trei"></span> */}
           </div>
         </div>
+      </Link>
     </div>
   );
 }
