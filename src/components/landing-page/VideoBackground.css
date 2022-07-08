@@ -17,12 +17,24 @@
   /* display: block; */
 }
 
+.background-video-tint{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: linear-gradient( rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0.7) );
+  top: 0;
+  left: 0;
+}
+
 .text-in-video {
   position: absolute;
   color: var(--filler-color-1);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 11;
 }
 
 .text-in-video h1,p{
@@ -76,6 +88,7 @@
 	bottom: 10%;
   left: 49%;
   transform: translate(-50,-50);
+  z-index: 11;
 }
 
 

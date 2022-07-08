@@ -9,6 +9,7 @@ function Video() {
         <source src = "/assets/videos/Paradise-Studio-Video-3.webm" type='video/webm' />
         <source src = "/assets/videos/Paradise-Studio-Video-3.mp4" type='video/mp4' />
       </video>
+      <div className="background-video-tint"></div>
       <div class="text-in-video">
         {/* <h1>Paradise</h1>
         <p>Stile studio</p> */}
